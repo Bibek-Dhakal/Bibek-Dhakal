@@ -73,9 +73,18 @@ data warehouses, building custom LLM components, and deploying asynchronous back
 ### 💼 Experience Highlights
 
 - **AI / ML Intern @ FlyRank AI** *(Jul 2026 – Present)*: Building CTR Opportunity Scoring decision-support ML models
-  across 70M+ row production datasets using DuckDB and BigQuery.
-- **Software Engineer / Intern @ Walkers Hive IT Professionals**: Built *AcademiaOS* (MVP backend with FastAPI, Celery,
-  Docker, and RBAC) and modern React/Next.js platforms.
+  across 70M+ row production datasets using DuckDB and BigQuery. Earned Anthropic Academy certifications for
+  Claude/Claude Code.
+- **Data Science & ML Apprentice @ Skill Shikshya** *(Apr 2026 – Present)*: Rigorous hands-on engineering track spanning
+  scratch-pad ML math, deep learning architectures, vector computation, and production MLOps.
+- **Fullstack Engineer Intern @ Walkers Hive IT Professionals** *(Oct 2025 – Dec 2025)*: Proactively returned to lead
+  independent architecture of *AcademiaOS* MVP (FastAPI, Next.js, Celery, Docker, HTTP-only cookie auth, RBAC).
+- **Software Engineer @ Nextwave Technology** *(Apr 2025 – Jul 2025)*: Led Play Store launch for the "Academia" mobile
+  app, fixed legacy Flutter codebases, and migrated corporate sites to dynamic Next.js platforms.
+- **Software Engineer @ Walkers Hive IT Professionals** *(Nov 2024 – Apr 2025)*: Built e-commerce admin panels with
+  React/MUI/Redux-Saga and deployed full-stack Next.js frontends over legacy PHP backends.
+- **Android Development Intern @ CodSoft** *(Dec 2023 – Jan 2024)*: Developed Flutter applications with Firebase
+  authentication, local persistence, and BLoC state management.
 
 ---
 
