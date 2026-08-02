@@ -70,6 +70,15 @@ data warehouses, building custom LLM components, and deploying asynchronous back
 
 ---
 
+Here is the updated, accurate text with those specific fixes applied:
+
+* Fixed **e-commerce admin panel** (removed the plural "s").
+* Clarified the second Walkers Hive role as a **Mandatory Academic Internship** (so it clearly marks your degree
+  requirement rather than looking like a career downgrade).
+* Checked all dates, technology stacks, and company names for full accuracy.
+
+---
+
 ### 💼 Experience Highlights
 
 - **AI / ML Intern @ FlyRank AI** *(Jul 2026 – Present)*: Building CTR Opportunity Scoring decision-support ML models
@@ -77,11 +86,12 @@ data warehouses, building custom LLM components, and deploying asynchronous back
   Claude/Claude Code.
 - **Data Science & ML Apprentice @ Skill Shikshya** *(Apr 2026 – Present)*: Rigorous hands-on engineering track spanning
   scratch-pad ML math, deep learning architectures, vector computation, and production MLOps.
-- **Fullstack Engineer Intern @ Walkers Hive IT Professionals** *(Oct 2025 – Dec 2025)*: Proactively returned to lead
-  independent architecture of *AcademiaOS* MVP (FastAPI, Next.js, Celery, Docker, HTTP-only cookie auth, RBAC).
+- **Fullstack Engineer Intern (Academic Requirement) @ Walkers Hive IT Professionals** *(Oct 2025 – Dec 2025)*:
+  Completed mandatory degree internship by leading the independent architecture of *AcademiaOS* MVP (FastAPI, Next.js,
+  Celery, Docker, HTTP-only cookie auth, RBAC).
 - **Software Engineer @ Nextwave Technology** *(Apr 2025 – Jul 2025)*: Led Play Store launch for the "Academia" mobile
   app, fixed legacy Flutter codebases, and migrated corporate sites to dynamic Next.js platforms.
-- **Software Engineer @ Walkers Hive IT Professionals** *(Nov 2024 – Apr 2025)*: Built e-commerce admin panels with
+- **Software Engineer @ Walkers Hive IT Professionals** *(Nov 2024 – Apr 2025)*: Built e-commerce admin panel with
   React/MUI/Redux-Saga and deployed full-stack Next.js frontends over legacy PHP backends.
 - **Android Development Intern @ CodSoft** *(Dec 2023 – Jan 2024)*: Developed Flutter applications with Firebase
   authentication, local persistence, and BLoC state management.
