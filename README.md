@@ -10,6 +10,18 @@ data warehouses, building custom LLM components, and deploying asynchronous back
 
 ---
 
+### 👨‍💻 About Me & Immediate Availability
+
+- **Current Status:** Coursework fully completed; taking final BCA degree examinations within the next week. **Fully
+  available for immediate, full-time engineering roles** with zero ongoing class obligations.
+- **Career Journey:** Spent my university years balancing degree requirements alongside targeted contract software
+  engineering roles, academic internships, and production ML pipelines.
+- **Tech Stack Focus:** The tools listed below are strictly technologies I have actively shipped in production
+  environments, deployed in microservices, or used to build open-source ML architecture. *(Secondary exposure to
+  languages like Rust, Java, and C is intentionally omitted to highlight primary engineering depth).*
+
+---
+
 ### 🚀 Technical Focus & Strengths
 
 - 🧠 **LLMs & Core Mechanics:** Tokenization engines from scratch (Published `lexibyte` on PyPI), custom PyTorch
@@ -80,8 +92,8 @@ data warehouses, building custom LLM components, and deploying asynchronous back
 - **Fullstack Engineer Intern (Academic Requirement) @ Walkers Hive IT Professionals** *(Oct 2025 – Dec 2025)*:
   Completed mandatory degree internship by leading the independent architecture of *AcademiaOS* MVP (FastAPI, Next.js,
   Celery, Docker, HTTP-only cookie auth, RBAC).
-- **Software Engineer (Contract) @ Nextwave Technology** *(Apr 2025 – Jul 2025)*: Led Play Store launch for the
-- "Academia" mobile app, fixed legacy Flutter codebases, and migrated corporate sites to dynamic Next.js platforms.
+- **Software Engineer (Contract) @ Nextwave Technology** *(Apr 2025 – Jul 2025)*: Led Play Store launch for the "
+  Academia" mobile app, fixed legacy Flutter codebases, and migrated corporate sites to dynamic Next.js platforms.
 - **Software Engineer (Contract) @ Walkers Hive IT Professionals** *(Nov 2024 – Apr 2025)*: Built e-commerce admin panel
   with React/MUI/Redux-Saga and deployed full-stack Next.js frontends over legacy PHP backends.
 - **Android Development Intern @ CodSoft** *(Dec 2023 – Jan 2024)*: Developed Flutter applications with Firebase
@@ -93,7 +105,7 @@ data warehouses, building custom LLM components, and deploying asynchronous back
 
 - **Bachelor of Computer Application (BCA)** *(2021 – 2026)*  
   **Niharika College of Management and Information Technology** *(Tribhuvan University, Nepal)*  
-  *Status: Coursework completed; currently awaiting final examinations.*
+  *Status: Coursework completed; currently taking final examinations.*
 
 ---
 
