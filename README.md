@@ -72,7 +72,7 @@ data warehouses, building custom LLM components, and deploying asynchronous back
 - Wrapped XGBoost with **Platt Scaling (CalibratedClassifierCV)** for accurate probability output.
 - Deployed with **FastAPI**, **Streamlit**, and orchestrated via **Docker Compose**.
 
-#### 4. 🌐 [ZeroProp Engine & Live WebSocket Dashboard](https://github.com/bibek-dhakal)
+#### 4. 🌐 [ZeroProp Engine & Live WebSocket Dashboard](https://github.com/Bibek-Dhakal/zero-prop-api/)
 
 *Custom zero-dependency Neural Network Engine with real-time web visualization.*
 
