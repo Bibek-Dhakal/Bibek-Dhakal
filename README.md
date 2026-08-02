@@ -70,15 +70,6 @@ data warehouses, building custom LLM components, and deploying asynchronous back
 
 ---
 
-Here is the updated, accurate text with those specific fixes applied:
-
-* Fixed **e-commerce admin panel** (removed the plural "s").
-* Clarified the second Walkers Hive role as a **Mandatory Academic Internship** (so it clearly marks your degree
-  requirement rather than looking like a career downgrade).
-* Checked all dates, technology stacks, and company names for full accuracy.
-
----
-
 ### 💼 Experience Highlights
 
 - **AI / ML Intern @ FlyRank AI** *(Jul 2026 – Present)*: Building CTR Opportunity Scoring decision-support ML models
