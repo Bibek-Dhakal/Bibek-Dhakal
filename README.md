@@ -89,12 +89,20 @@ Here is the updated, accurate text with those specific fixes applied:
 - **Fullstack Engineer Intern (Academic Requirement) @ Walkers Hive IT Professionals** *(Oct 2025 – Dec 2025)*:
   Completed mandatory degree internship by leading the independent architecture of *AcademiaOS* MVP (FastAPI, Next.js,
   Celery, Docker, HTTP-only cookie auth, RBAC).
-- **Software Engineer @ Nextwave Technology** *(Apr 2025 – Jul 2025)*: Led Play Store launch for the "Academia" mobile
-  app, fixed legacy Flutter codebases, and migrated corporate sites to dynamic Next.js platforms.
-- **Software Engineer @ Walkers Hive IT Professionals** *(Nov 2024 – Apr 2025)*: Built e-commerce admin panel with
-  React/MUI/Redux-Saga and deployed full-stack Next.js frontends over legacy PHP backends.
+- **Software Engineer (Contract) @ Nextwave Technology** *(Apr 2025 – Jul 2025)*: Led Play Store launch for the
+- "Academia" mobile app, fixed legacy Flutter codebases, and migrated corporate sites to dynamic Next.js platforms.
+- **Software Engineer (Contract) @ Walkers Hive IT Professionals** *(Nov 2024 – Apr 2025)*: Built e-commerce admin panel
+  with React/MUI/Redux-Saga and deployed full-stack Next.js frontends over legacy PHP backends.
 - **Android Development Intern @ CodSoft** *(Dec 2023 – Jan 2024)*: Developed Flutter applications with Firebase
   authentication, local persistence, and BLoC state management.
+
+---
+
+### 🎓 Education
+
+- **Bachelor of Computer Application (BCA)** *(2021 – 2026)*  
+  **Niharika College of Management and Information Technology** *(Tribhuvan University, Nepal)*  
+  *Status: Coursework completed; currently awaiting final examinations.*
 
 ---
 
