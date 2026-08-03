@@ -12,8 +12,11 @@ data warehouses, building custom LLM components, and deploying asynchronous back
 
 ### 👨‍💻 About Me & Immediate Availability
 
-- **Current Status:** Coursework fully completed; taking final BCA degree examinations within the next week. **Fully
-  available for immediate, full-time engineering roles** with zero ongoing class obligations.
+- **Current Status:** Coursework fully completed. Final BCA degree examinations begin on **August 11, 2026** (lasting
+  approx. 1–2 weeks). **Available for immediate recruitment & full-time deployment starting mid-August 2026** upon exam
+  completion (seeking Associate / Entry-Level Machine Learning Engineer, AI Engineer, or MLOps Engineer roles).
+- **Flexibility:** My current internship is self-paced, and all coursework/training programs are complete, allowing 100%
+  dedicated focus to full-time engineering commitments once exams conclude.
 - **Career Journey:** Spent my university years balancing degree requirements alongside targeted contract software
   engineering roles, academic internships, and production ML pipelines.
 - **Tech Stack Focus:** The tools listed below are strictly technologies I have actively shipped in production
@@ -51,8 +54,8 @@ data warehouses, building custom LLM components, and deploying asynchronous back
 
 *Production-grade, algorithmically optimized Byte-Pair Encoding (BPE) tokenizer published on PyPI.*
 
-- Engineered **GPT-4 style regex pre-splitting** ($\p{L}, \p{N}$) to isolate words, numbers, and punctuation.
-- Built a **Sennrich Frequency Dictionary** during training to reduce merge checks and integrated an $O(1)$ memoization
+- Engineered **GPT-4 style regex pre-splitting** (`\p{L}`, `\p{N}`) to isolate words, numbers, and punctuation.
+- Built a **Sennrich Frequency Dictionary** during training to reduce merge checks and integrated an O(1) memoization
   cache during inference.
 - Features base UTF-8 fallbacks to prevent Out-Of-Vocabulary (OOV) errors.
 - `pip install lexibyte`
@@ -85,10 +88,11 @@ data warehouses, building custom LLM components, and deploying asynchronous back
 ### 💼 Experience Highlights
 
 - **AI / ML Intern @ FlyRank AI** *(Jul 2026 – Present)*: Building CTR Opportunity Scoring decision-support ML models
-  across 70M+ row production datasets using DuckDB and BigQuery. Earned Anthropic Academy certifications for
-  Claude/Claude Code.
-- **Data Science & ML Apprentice @ Skill Shikshya** *(Apr 2026 – Present)*: Rigorous hands-on engineering track spanning
-  scratch-pad ML math, deep learning architectures, vector computation, and production MLOps.
+  across 70M+ row production datasets using DuckDB and BigQuery (Self-paced role). Earned Anthropic Academy
+  certifications for Claude/Claude Code.
+- **Data Science & ML Apprentice @ Skill Shikshya** *(Apr 2026 – Jul 2026)*: Completed rigorous hands-on engineering
+  track spanning scratch-pad ML math, deep learning architectures, vector computation, and production MLOps.
+  Successfully defended final project in July 2026 (certification pending).
 - **Fullstack Engineer Intern (Academic Requirement) @ Walkers Hive IT Professionals** *(Oct 2025 – Dec 2025)*:
   Completed mandatory degree internship by leading the independent architecture of *AcademiaOS* MVP (FastAPI, Next.js,
   Celery, Docker, HTTP-only cookie auth, RBAC).
@@ -105,7 +109,7 @@ data warehouses, building custom LLM components, and deploying asynchronous back
 
 - **Bachelor of Computer Application (BCA)** *(2021 – 2026)*  
   **Niharika College of Management and Information Technology** *(Tribhuvan University, Nepal)*  
-  *Status: Coursework completed; currently taking final examinations.*
+  *Status: Coursework completed; final examinations starting August 11, 2026 (degree completion mid-August 2026).*
 
 ---
 
