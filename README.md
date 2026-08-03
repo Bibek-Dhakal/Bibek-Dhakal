@@ -62,10 +62,20 @@ data warehouses, building custom LLM components, and deploying asynchronous back
 
 #### 2. ⚡ [Forge-LM](https://github.com/bibek-dhakal/forge-lm) & [NanoTransformer](https://github.com/bibek-dhakal/nanotransformer)
 
-*Hardware-optimized GPT-2 Transformer trained from scratch on TinyStories.*
+*An end-to-end, hardware-optimized Generative AI ecosystem. Evolved from raw PyTorch math into a fully deployed
+Full-Stack LLM application.*
 
-- Implemented **Gradient Accumulation**, **FlashAttention**, and custom **LexiByte BPE** tokenization.
-- Containerized and served via a high-throughput **FastAPI** deployment ecosystem.
+- 🧠 **[NanoTransformer](https://github.com/bibek-dhakal/nanotransformer) (The Foundation)**
+    - Engineered a GPT-2 style Transformer decoder from scratch using native PyTorch primitives.
+    - Integrated **FlashAttention**, **bfloat16 Mixed-Precision**, and a custom **LexiByte BPE** tokenizer to achieve
+      massive training throughput on consumer GPUs.
+
+- 🚀 **[Forge-LM](https://github.com/bibek-dhakal/forge-lm) (The Production Evolution)**
+    - Scaled the NanoTransformer architecture to ~28M parameters and trained on the *TinyStories* dataset, utilizing *
+      *Gradient Accumulation** to bypass 6GB VRAM hardware limits.
+    - Decoupled PyTorch from inference by exporting to **ONNX** with **INT8 dynamic quantization**.
+    - Engineered a lightweight **FastAPI** + **NumPy** backend and stateless **Docker** deployment to successfully serve
+      the AI on strict <512MB RAM cloud environments.
 
 #### 3. 🛡️ [Multimodal Phishing Detection Platform](https://github.com/bibek-dhakal/multimodal-phishing-detection-platform)
 
