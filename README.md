@@ -21,7 +21,7 @@ data warehouses, building custom LLM components, and deploying asynchronous back
   engineering roles, academic internships, and production ML pipelines.
 - **Tech Stack Focus:** The tools listed below are strictly technologies I have actively shipped in production
   environments, deployed in microservices, or used to build open-source ML architecture. *(Secondary exposure to
-  languages like Rust, Java, and C is intentionally omitted to highlight primary engineering depth).*
+  languages like PHP, Java, and C is intentionally omitted to highlight primary engineering depth).*
 
 ---
 
