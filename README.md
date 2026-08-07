@@ -50,7 +50,20 @@ data warehouses, building custom LLM components, and deploying asynchronous back
 
 ### 📌 Featured Open Source & Systems Architecture
 
-#### 1. 📦 [LexiByte (PyPI Package)](https://github.com/bibek-dhakal/lexibyte)
+#### 1. 🛡️ [Aegis Omnisearch Agent](https://github.com/bibek-dhakal/aegis-api)
+
+*Zero-framework RAG Agent & MLOps architecture built from scratch for low-resource cloud deployments.*
+
+- Engineered a custom **ReAct (Reason + Act)** loop paired with Google's **Gemini API** for autonomous tool selection
+  and grounded answers.
+- Bypassed PyTorch bloat using quantized `INT8` **ONNX Runtime** and **FAISS** for local, low-latency CPU vector
+  embeddings.
+- Optimized for strict sub-512MB RAM constraints via page-by-page PDF streaming, micro-batched indexing ($N=2$), and
+  arena memory management (`enable_cpu_mem_arena = False`).
+- Designed a **Zero-Downtime MLOps pipeline** using GitHub Webhooks for atomic memory-pointer swapping during live model
+  hot-updates.
+
+#### 2. 📦 [LexiByte (PyPI Package)](https://github.com/bibek-dhakal/lexibyte)
 
 *Production-grade, algorithmically optimized Byte-Pair Encoding (BPE) tokenizer published on PyPI.*
 
@@ -60,7 +73,7 @@ data warehouses, building custom LLM components, and deploying asynchronous back
 - Features base UTF-8 fallbacks to prevent Out-Of-Vocabulary (OOV) errors.
 - `pip install lexibyte`
 
-#### 2. ⚡ [Forge-LM](https://github.com/bibek-dhakal/forge-lm) & [NanoTransformer](https://github.com/bibek-dhakal/nanotransformer)
+#### 3. ⚡ [Forge-LM](https://github.com/bibek-dhakal/forge-lm) & [NanoTransformer](https://github.com/bibek-dhakal/nanotransformer)
 
 *An end-to-end, hardware-optimized Generative AI ecosystem. Evolved from raw PyTorch math into a fully deployed
 Full-Stack LLM application.*
@@ -77,7 +90,7 @@ Full-Stack LLM application.*
     - Engineered a lightweight **FastAPI** + **NumPy** backend and stateless **Docker** deployment to successfully serve
       the AI on strict <512MB RAM cloud environments.
 
-#### 3. 🛡️ [Multimodal Phishing Detection Platform](https://github.com/bibek-dhakal/multimodal-phishing-detection-platform)
+#### 4. 🛡️ [Multimodal Phishing Detection Platform](https://github.com/bibek-dhakal/multimodal-phishing-detection-platform)
 
 *Automated URL threat evaluation system built on a layered multi-modal architecture.*
 
@@ -85,7 +98,7 @@ Full-Stack LLM application.*
 - Wrapped XGBoost with **Platt Scaling (CalibratedClassifierCV)** for accurate probability output.
 - Deployed with **FastAPI**, **Streamlit**, and orchestrated via **Docker Compose**.
 
-#### 4. 🌐 [ZeroProp Engine & Live WebSocket Dashboard](https://github.com/Bibek-Dhakal/zero-prop-api/)
+#### 5. 🌐 [ZeroProp Engine & Live WebSocket Dashboard](https://github.com/Bibek-Dhakal/zero-prop-api/)
 
 *Custom zero-dependency Neural Network Engine with real-time web visualization.*
 
