@@ -190,7 +190,7 @@ pip install lexibyte
 
 ### Bachelor of Computer Application (BCA)
 
-**Niharika College of Management and Information Technology**
+**Nihareeka College of Management and Information Technology**
 *Tribhuvan University, Nepal • 2021 – 2026*
 
 **Status:** Final examinations completed in **August 2026**. Official degree pending.
