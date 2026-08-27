@@ -1,6 +1,6 @@
 # Hi, I'm Bibek Dhakal 👋
 
-### AI / Machine Learning Engineer | PyTorch • LLMs • FastAPI • ML Systems
+### Associate AI / Machine Learning Engineer | PyTorch • LLMs • FastAPI • ML Systems
 
 *Kathmandu, Nepal • [imbibek8366@gmail.com](mailto:imbibek8366@gmail.com)*
 
