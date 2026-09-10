@@ -199,9 +199,14 @@ pip install lexibyte
 
 # 📜 Certifications
 
-* **Anthropic Academy — Claude**
-* **Anthropic Academy — Claude Code**
-* **Skill Shikshya — Data Science & ML Track** *(certification pending)*
+* **Anthropic Academy — Claude Code in Action**
+* **Anthropic Academy — Building with the Claude API**
+* **Anthropic Academy — MCP Advanced Topics**
+* **Skill Shikshya — Data Science & ML Diploma**
+* **Kaggle — Pandas**
+* **Kaggle — Feature Engineering**
+* **Kaggle — Intro to Machine Learning**
+* **Kaggle — Intermediate Machine Learning**
 
 ---
 
