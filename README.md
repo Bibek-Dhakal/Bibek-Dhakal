@@ -12,8 +12,9 @@ FastAPI backends, and Docker-based deployment**. I enjoy understanding how ML sy
 abstractions and turning those implementations into usable software.
 
 **🎯 Current:** AI / ML Intern at FlyRank AI  
-**🎓 Education:** BCA final examinations completed in August 2026; official degree pending  
-**💼 Status:** **Available immediately for full-time employment**  
+**🎓 Education:** BCA final examinations completed in August 2026  
+**💼 Status:** **Available immediately for full-time employment as my current internship/project commitments
+conclude.**  
 **🔎 Seeking:** **Associate / Junior ML Engineer, AI Engineer, or Entry-Level ML Engineer roles**
 
 ---
@@ -132,6 +133,8 @@ pip install lexibyte
 * Working with modern AI development tools, including Claude and Claude Code.
 * Completed **Anthropic Academy certifications for Claude and Claude Code**.
 
+### Training & Apprenticeships
+
 **Data Science & ML Apprentice** — *Skill Shikshya* | **Apr 2026 – Jul 2026**
 
 * Completed a hands-on learning track covering machine-learning mathematics, vector computation, classical ML, and
@@ -145,7 +148,7 @@ pip install lexibyte
 
 ---
 
-### Software Engineering & Internships
+### Software Engineering Contracts & Internships Along with Bachelor's Degree
 
 **Full-Stack Engineer Intern** — *Walkers Hive IT Professionals* | **Oct 2025 – Dec 2025** *(Mandatory Academic
 Internship)*
@@ -183,7 +186,7 @@ Internship)*
 **Nihareeka College of Management and Information Technology**
 *Tribhuvan University, Nepal • 2021 – 2026*
 
-**Status:** Final examinations completed in **August 2026**. Official degree pending.
+**Status:** Final examinations completed in **August 2026**.
 
 ---
 
@@ -229,18 +232,3 @@ I'm also open to **MLOps / ML Platform opportunities** where the role is suitabl
 hands-on experience in **Docker, FastAPI, model serving, and ML deployment**.
 
 ---
-
-**Academic & Practical Profile Highlights**
-
-* **Simultaneous Academic & Industry Track:** Completed a full-time BCA degree (2021–2026) while actively gaining
-  hands-on software development, internship, and contract experience across multiple organizations.
-
-* **Fundamental & Low-Level Implementation Skills:** Built core ML components from scratch—including custom PyPI
-  tokenizer packages, neural network engines using pure NumPy, and lightweight ONNX/Docker deployments—demonstrating
-  strong foundational engineering principles.
-
-* **Immediate Availability:** Completed final BCA examinations in August 2026 and available for immediate full-time
-  employment as current internship/project commitments conclude.
-
----
-
