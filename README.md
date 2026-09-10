@@ -229,3 +229,18 @@ I'm also open to **MLOps / ML Platform opportunities** where the role is suitabl
 hands-on experience in **Docker, FastAPI, model serving, and ML deployment**.
 
 ---
+
+**Academic & Practical Profile Highlights**
+
+* **Simultaneous Academic & Industry Track:** Completed a full-time BCA degree (2021–2026) while actively gaining
+  hands-on software development, internship, and contract experience across multiple organizations.
+
+* **Fundamental & Low-Level Implementation Skills:** Built core ML components from scratch—including custom PyPI
+  tokenizer packages, neural network engines using pure NumPy, and lightweight ONNX/Docker deployments—demonstrating
+  strong foundational engineering principles.
+
+* **Immediate Availability:** Completed final BCA examinations in August 2026 and available for immediate full-time
+  employment as current internship/project commitments conclude.
+
+---
+
