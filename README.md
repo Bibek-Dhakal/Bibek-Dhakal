@@ -122,9 +122,9 @@ pip install lexibyte
 
 ## 💼 Experience
 
-### AI / ML Intern — FlyRank AI
+### Machine Learning & AI Experience
 
-**Jul 2026 – Present**
+**AI / ML Intern** — *FlyRank AI* | **Jul 2026 – Present**
 
 * Working on **CTR Opportunity Scoring** and decision-support ML work using datasets containing **70M+ rows**.
 * Using **DuckDB and Google BigQuery** for large-scale data querying and analysis.
@@ -132,9 +132,7 @@ pip install lexibyte
 * Working with modern AI development tools, including Claude and Claude Code.
 * Completed **Anthropic Academy certifications for Claude and Claude Code**.
 
-### Data Science & ML Apprentice — Skill Shikshya
-
-**Apr 2026 – Jul 2026**
+**Data Science & ML Apprentice** — *Skill Shikshya* | **Apr 2026 – Jul 2026**
 
 * Completed a hands-on learning track covering machine-learning mathematics, vector computation, classical ML, and
   deep-learning concepts.
@@ -142,13 +140,15 @@ pip install lexibyte
 * Built and served ML applications using **FastAPI**.
 * Used **Docker** to containerize applications.
 * Completed and defended the final project in **July 2026**.
-* **Certification pending.**
+* Completed **Kaggle certifications for Pandas, Feature Engineering, Intro to ML, and Intermediate ML**.
+* Completed **Skill Shikshya certifications for Data Science & ML Diploma**.
 
-### Full-Stack Engineer Intern — Walkers Hive IT Professionals
+---
 
-**Oct 2025 – Dec 2025**
+### Software Engineering & Internships
 
-*Academic internship*
+**Full-Stack Engineer Intern** — *Walkers Hive IT Professionals* | **Oct 2025 – Dec 2025** *(Mandatory Academic
+Internship)*
 
 * Independently designed and implemented the architecture for the **AcademiaOS MVP**.
 * Built backend services using **FastAPI and Celery**.
@@ -156,33 +156,23 @@ pip install lexibyte
 * Implemented HTTP-only cookie authentication and **role-based access control (RBAC)**.
 * Used Docker as part of the application development and deployment setup.
 
-### Software Engineer — Nextwave Technology
+**Software Engineer** — *Nextwave Technology* | **Apr 2025 – Jul 2025** *(Contract)*
 
-**Apr 2025 – Jul 2025**
-
-*Contract*
-
-* Worked on the Google Play Store launch of the **Academia** mobile application.
+* Worked on new features, bug fixes, UI revamp, and the Google Play Store launch of the **Academia** mobile application.
 * Maintained and fixed existing Flutter codebases.
 * Migrated corporate websites to **Next.js**-based implementations.
 
-### Software Engineer — Walkers Hive IT Professionals
-
-**Nov 2024 – Apr 2025**
-
-*Contract*
+**Software Engineer** — *Walkers Hive IT Professionals* | **Nov 2024 – Apr 2025** *(Contract)*
 
 * Built an e-commerce administration panel using **React, MUI, and Redux-Saga**.
 * Developed Next.js frontends integrated with existing PHP backends.
 * Worked across frontend development, application integration, and deployment.
 
-### Android Development Intern — CodSoft
-
-**Dec 2023 – Jan 2024**
+**Android Development Intern** — *CodSoft* | **Dec 2023 – Jan 2024** *(Internship)*
 
 * Developed Flutter applications with **Firebase Authentication**.
 * Implemented local persistence and **BLoC state management**.
-* Worked on application UI and backend integration.
+* Worked on application UI and BAAS integration.
 
 ---
 
