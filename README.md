@@ -11,6 +11,11 @@ My work spans **PyTorch, Transformer architectures, tokenization, ML inference, 
 FastAPI backends, and Docker-based deployment**. I enjoy understanding how ML systems work underneath high-level
 abstractions and turning those implementations into usable software.
 
+**Status & Commitment:** I am fully available for immediate full-time employment with zero academic commitments
+remaining. Having completed my degree and short-term project contracts, I am seeking a long-term role as an
+Associate/Junior ML Engineer where I can grow with a core engineering team and contribute to production systems over the
+coming years.
+
 **🎯 Current:** AI / ML Intern at FlyRank AI  
 **🎓 Education:** BCA final examinations completed in August 2026  
 **💼 Status:** **Available immediately for full-time employment as my current internship/project commitments
@@ -184,9 +189,10 @@ Internship)*
 ### Bachelor of Computer Application (BCA)
 
 **Nihareeka College of Management and Information Technology**
-*Tribhuvan University, Nepal • 2021 – 2026*
+*Tribhuvan University, Nepal • 2021 – 2026 (5-year timeline reflective of TU academic schedule/exam deferrals and
+calendar alignment)*
 
-**Status:** Final examinations completed in **August 2026**.
+**Status:** **Final examinations completed in August 2026. Fully available with no remaining academic obligations.**
 
 ---
 
