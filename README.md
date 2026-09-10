@@ -42,9 +42,9 @@ abstractions and turning those implementations into usable software.
 
 ---
 
-# 📌 Featured Projects
+## 📌 Featured Projects
 
-## 🛡️ [Aegis Omnisearch Agent](https://github.com/bibek-dhakal/aegis-api)
+### 🛡️ [Aegis Omnisearch Agent](https://github.com/bibek-dhakal/aegis-api)
 
 **Lightweight RAG agent designed for resource-constrained deployments.**
 
@@ -57,7 +57,7 @@ abstractions and turning those implementations into usable software.
 
 ---
 
-## 📦 [LexiByte](https://github.com/bibek-dhakal/lexibyte)
+### 📦 [LexiByte](https://github.com/bibek-dhakal/lexibyte)
 
 **Byte-Pair Encoding tokenizer implemented from scratch and published as a Python package on PyPI.**
 
@@ -73,18 +73,18 @@ pip install lexibyte
 
 ---
 
-## ⚡ [Forge-LM](https://github.com/bibek-dhakal/forge-lm) & [NanoTransformer](https://github.com/bibek-dhakal/nanotransformer)
+### ⚡ [Forge-LM](https://github.com/bibek-dhakal/forge-lm) & [NanoTransformer](https://github.com/bibek-dhakal/nanotransformer)
 
 **A project exploring Transformer implementation, training, optimization, and lightweight inference.**
 
-### 🧠 [NanoTransformer](https://github.com/bibek-dhakal/nanotransformer)
+#### 🧠 [NanoTransformer](https://github.com/bibek-dhakal/nanotransformer)
 
 * Implemented a GPT-2-style Transformer decoder using PyTorch primitives.
 * Integrated the custom **LexiByte BPE tokenizer**.
 * Experimented with **FlashAttention** and **bfloat16 mixed precision** for training.
 * Built the architecture to understand Transformer components and training mechanics from the implementation level.
 
-### 🚀 [Forge-LM](https://github.com/bibek-dhakal/forge-lm)
+#### 🚀 [Forge-LM](https://github.com/bibek-dhakal/forge-lm)
 
 * Scaled the architecture to approximately **28M parameters**.
 * Trained the model on the **TinyStories** dataset.
@@ -95,7 +95,7 @@ pip install lexibyte
 
 ---
 
-## 🛡️ [Multimodal Phishing Detection Platform](https://github.com/bibek-dhakal/multimodal-phishing-detection-platform)
+### 🛡️ [Multimodal Phishing Detection Platform](https://github.com/bibek-dhakal/multimodal-phishing-detection-platform)
 
 **Phishing detection system combining structured URL features with linguistic signals.**
 
@@ -108,7 +108,7 @@ pip install lexibyte
 
 ---
 
-## 🌐 [ZeroProp Engine & Live WebSocket Dashboard](https://github.com/Bibek-Dhakal/zero-prop-api/)
+### 🌐 [ZeroProp Engine & Live WebSocket Dashboard](https://github.com/Bibek-Dhakal/zero-prop-api/)
 
 **Neural-network engine implemented without a deep-learning framework, with real-time training visualization.**
 
@@ -120,7 +120,7 @@ pip install lexibyte
 
 ---
 
-# 💼 Experience
+## 💼 Experience
 
 ### AI / ML Intern — FlyRank AI
 
@@ -186,7 +186,7 @@ pip install lexibyte
 
 ---
 
-# 🎓 Education
+## 🎓 Education
 
 ### Bachelor of Computer Application (BCA)
 
@@ -197,20 +197,29 @@ pip install lexibyte
 
 ---
 
-# 📜 Certifications
+## 📜 Certifications
 
-* **Anthropic Academy — Claude Code in Action**
-* **Anthropic Academy — Building with the Claude API**
-* **Anthropic Academy — MCP Advanced Topics**
-* **Skill Shikshya — Data Science & ML Diploma**
+* **Anthropic Academy — Claude Code in Action** [Link](https://verify.skilljar.com/c/ho48cm8wcsa9)
+* **Anthropic Academy — Building with the Claude API** [Link](https://verify.skilljar.com/c/hg695uod5bb8)
+* **Anthropic Academy — MCP Advanced Topics** [Link](https://verify.skilljar.com/c/bf7vbtdiv8ti)
+* **Skill Shikshya — Data Science & ML Diploma** [Link](https://skillshikshya.com/verify-certificates/DSAMLDC260023)
+
+### Kaggle Certificates: [Link](https://www.kaggle.com/bibekdhakal8366)
+
 * **Kaggle — Pandas**
 * **Kaggle — Feature Engineering**
 * **Kaggle — Intro to Machine Learning**
 * **Kaggle — Intermediate Machine Learning**
 
+### Artifacts
+
+* **LunarLander-v2 Agent** [Link](https://github.com/bibek-dhakal/lunar-lander-v2-agent)
+  Trained an autonomous agent to safely navigate a lunar module to its landing pad using the Proximal Policy
+  Optimization (PPO) algorithm.
+
 ---
 
-# 📫 Let's Connect
+## 📫 Let's Connect
 
 * **Email:** [imbibek8366@gmail.com](mailto:imbibek8366@gmail.com)
 * **LinkedIn:** [linkedin.com/in/bibek-dhakal-771ba5334](https://www.linkedin.com/in/bibek-dhakal-771ba5334/)
