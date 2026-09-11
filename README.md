@@ -242,6 +242,7 @@ calendar alignment)*
 * **Anthropic Academy — Claude Code in Action** [Link](https://verify.skilljar.com/c/ho48cm8wcsa9)
 * **Anthropic Academy — Building with the Claude API** [Link](https://verify.skilljar.com/c/hg695uod5bb8)
 * **Anthropic Academy — MCP Advanced Topics** [Link](https://verify.skilljar.com/c/bf7vbtdiv8ti)
+* **Anthropic Academy — Claude in Amazon Bedrock** [Link](https://verify.skilljar.com/c/gesgzvi2zhk5)
 
 ### Kaggle Certificates: [Link](https://www.kaggle.com/bibekdhakal8366)
 
