@@ -16,10 +16,9 @@ remaining. Having completed my degree and short-term project contracts, I am see
 Associate/Junior ML Engineer where I can grow with a core engineering team and contribute to production systems over the
 coming years.
 
-**🎯 Current:** AI / ML Intern at FlyRank AI  
+**🎯 Recent:** Completed AI/ML Internship at FlyRank AI (Published Capstone on Data Leakage & Search Intelligence)
 **🎓 Education:** BCA final examinations completed in August 2026  
-**💼 Status:** **Available immediately for full-time employment as my current internship/project commitments
-conclude.**  
+**💼 Status:** **Available immediately for full-time employment**
 **🔎 Seeking:** **Associate / Junior ML Engineer, AI Engineer, or Entry-Level ML Engineer roles**
 
 ---
@@ -49,6 +48,37 @@ conclude.**
 ---
 
 ## 📌 Featured Projects
+
+### 📊 [Applied Search Intelligence: CTR Opportunity Scoring](https://bibek-dhakal.github.io/applied-search-intelligence/)
+
+**Decision-support ML system trained on ~79 million rows of production search data (FlyRank Capstone).**
+
+* Processed out-of-core datasets using **DuckDB** and SQL aggregations to handle massive GSC/GA4 data without memory
+  exhaustion.
+* Identified and documented a critical data leakage trap: a naive data split yielded an inflated 94% precision due to
+  client overlap, which I corrected to an honest 64% using a strict **client-grouped holdout split**.
+* Evaluated readable models (Logistic Regression) against Random Forests to prioritize underperforming SEO pages for
+  human reviewers.
+* Translated the model probabilities into a transparent, rule-backed "Action Playbook" to avoid black-box automated
+  decision-making.
+* Published the full methodology, leakage audit, and results as a
+  deployed [Research Paper](https://bibek-dhakal.github.io/applied-search-intelligence/).
+
+### 📉 [Customer Churn Risk Intelligence](https://github.com/bibek-dhakal/customer-churn-risk-intelligence)
+
+**Production-ready ML pipeline for customer churn prediction and actionable risk segmentation.**
+
+* Engineered a modular, end-to-end machine learning pipeline using **Scikit-Learn** and **LightGBM**, featuring
+  automated data validation, schema checking, and reproducible train/test splitting.
+* Designed a custom feature engineering module to capture customer lifecycle signals, such as financial exposure,
+  service adoption rates, and contract vulnerability.
+* Evaluated multiple algorithm families using **5-fold Stratified Cross-Validation**, ultimately selecting **Logistic
+  Regression (0.85 ROC-AUC)** over Random Forest/LightGBM due to its superior probability ranking sensitivity on
+  imbalanced datasets.
+* Structured the codebase using strong software engineering principles—separating configuration, feature engineering,
+  and modeling logic into a clean `src/` package for strict reproducibility.
+* Generated customer-level churn probabilities mapped to actionable business risk tiers (Low to Very High risk) for
+  targeted retention campaigns.
 
 ### 🛡️ [Aegis Omnisearch Agent](https://github.com/bibek-dhakal/aegis-api)
 
@@ -130,13 +160,19 @@ pip install lexibyte
 
 ### Machine Learning & AI Experience
 
-**AI / ML Intern** — *FlyRank AI* | **Jul 2026 – Present**
+**AI / ML Engineering Intern** — *FlyRank AI* | **Jul 2026 – Sep 2026**
 
-* Working on **CTR Opportunity Scoring** and decision-support ML work using datasets containing **70M+ rows**.
-* Using **DuckDB and Google BigQuery** for large-scale data querying and analysis.
-* Working on feature preparation and ML workflows for decision-support use cases.
-* Working with modern AI development tools, including Claude and Claude Code.
-* Completed **Anthropic Academy certifications for Claude and Claude Code**.
+* Engineered a **CTR Opportunity Scoring** model acting as a decision-support system over **~79M rows** of production
+  search data.
+* Used **DuckDB** to query and aggregate large-scale Parquet datasets directly from Hugging Face, avoiding RAM
+  bottlenecks.
+* Conducted rigorous model evaluation, successfully identifying and mitigating client-overlap data leakage via strict
+  grouped validation splits.
+* Framed machine learning outputs as a human-in-the-loop action playbook, focusing on precision and real-world business
+  constraints.
+* Authored and deployed a comprehensive [Research Paper](https://bibek-dhakal.github.io/applied-search-intelligence/)
+  detailing the validation methodology and error analysis.
+* Completed **Anthropic Academy certifications** for Claude and Claude Code.
 
 ### Training & Apprenticeships
 
@@ -198,10 +234,15 @@ calendar alignment)*
 
 ## 📜 Certifications
 
+* **FlyRank AI — Machine Learning Internship Certificate**
+  [Link](https://internship.flyrank.ai/verify/FR-D11-20CBF-CC2BF?first_name=Bibek)
+* **Skill Shikshya — Data Science & ML Diploma** [Link](https://skillshikshya.com/verify-certificates/DSAMLDC260023)
+
+## Anthropic Academy Certifications:
+
 * **Anthropic Academy — Claude Code in Action** [Link](https://verify.skilljar.com/c/ho48cm8wcsa9)
 * **Anthropic Academy — Building with the Claude API** [Link](https://verify.skilljar.com/c/hg695uod5bb8)
 * **Anthropic Academy — MCP Advanced Topics** [Link](https://verify.skilljar.com/c/bf7vbtdiv8ti)
-* **Skill Shikshya — Data Science & ML Diploma** [Link](https://skillshikshya.com/verify-certificates/DSAMLDC260023)
 
 ### Kaggle Certificates: [Link](https://www.kaggle.com/bibekdhakal8366)
 
@@ -210,8 +251,12 @@ calendar alignment)*
 * **Kaggle — Intro to Machine Learning**
 * **Kaggle — Intermediate Machine Learning**
 
-### Artifacts
+### 🏆 Artifacts
 
+* **Deployed ML Research Paper: CTR Opportunity Score
+  ** [Read Here](https://bibek-dhakal.github.io/applied-search-intelligence/)
+  A public research paper detailing my methodology on evaluating ML models honestly, mitigating data leakage, and
+  framing ML as a decision-support tool.
 * **LunarLander-v2 Agent** [Link](https://github.com/bibek-dhakal/lunar-lander-v2-agent)
   Trained an autonomous agent to safely navigate a lunar module to its landing pad using the Proximal Policy
   Optimization (PPO) algorithm.
