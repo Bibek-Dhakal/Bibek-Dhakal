@@ -16,9 +16,9 @@ remaining. Having completed my degree and short-term project contracts, I am see
 Associate/Junior ML Engineer where I can grow with a core engineering team and contribute to production systems over the
 coming years.
 
-**🎯 Recent:** Completed AI/ML Internship at FlyRank AI (Published Capstone on Data Leakage & Search Intelligence)
-**🎓 Education:** BCA final examinations completed in August 2026  
-**💼 Status:** **Available immediately for full-time employment**
+**🎯 Recent:** Completed AI/ML Internship at FlyRank AI (Published Capstone on Data Leakage & Search Intelligence) <br>
+**🎓 Education:** BCA final examinations completed in August 2026 <br>
+**💼 Status:** **Available immediately for full-time employment** <br>
 **🔎 Seeking:** **Associate / Junior ML Engineer, AI Engineer, or Entry-Level ML Engineer roles**
 
 ---
@@ -51,14 +51,14 @@ coming years.
 
 ### 📊 [Applied Search Intelligence: CTR Opportunity Scoring](https://bibek-dhakal.github.io/applied-search-intelligence/)
 
-**Decision-support ML system trained on ~79 million rows of production search data (FlyRank Capstone).**
+**Decision-support ML system for SEO prioritization (FlyRank Capstone).**
 
-* Processed out-of-core datasets using **DuckDB** and SQL aggregations to handle massive GSC/GA4 data without memory
-  exhaustion.
+* Handled out-of-core data processing by querying and verifying a **~79 million row** production warehouse directly from
+  Hugging Face using **DuckDB**.
+* Trained a Random Forest classifier on a curated **30,000-row** anonymized dataset to identify pages underperforming
+  their exact peer groups.
 * Identified and documented a critical data leakage trap: a naive data split yielded an inflated 94% precision due to
   client overlap, which I corrected to an honest 64% using a strict **client-grouped holdout split**.
-* Evaluated readable models (Logistic Regression) against Random Forests to prioritize underperforming SEO pages for
-  human reviewers.
 * Translated the model probabilities into a transparent, rule-backed "Action Playbook" to avoid black-box automated
   decision-making.
 * Published the full methodology, leakage audit, and results as a
@@ -162,17 +162,16 @@ pip install lexibyte
 
 **AI / ML Engineering Intern** — *FlyRank AI* | **Jul 2026 – Sep 2026**
 
-* Engineered a **CTR Opportunity Scoring** model acting as a decision-support system over **~79M rows** of production
-  search data.
-* Used **DuckDB** to query and aggregate large-scale Parquet datasets directly from Hugging Face, avoiding RAM
-  bottlenecks.
+* Engineered a **CTR Opportunity Scoring** model acting as a decision-support system to prioritize SEO metadata reviews.
+* Used **DuckDB** to query and aggregate large-scale Parquet datasets (**~79M rows**) directly from Hugging Face,
+  avoiding RAM bottlenecks, while training the final ML models on a 30k-row analytical slice.
 * Conducted rigorous model evaluation, successfully identifying and mitigating client-overlap data leakage via strict
   grouped validation splits.
 * Framed machine learning outputs as a human-in-the-loop action playbook, focusing on precision and real-world business
   constraints.
 * Authored and deployed a comprehensive [Research Paper](https://bibek-dhakal.github.io/applied-search-intelligence/)
   detailing the validation methodology and error analysis.
-* Completed **Anthropic Academy certifications** for Claude and Claude Code.
+* Completed various **Anthropic Academy certifications** for AI fluency and Claude API proficiency.
 
 ### Training & Apprenticeships
 
