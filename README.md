@@ -252,8 +252,8 @@ Internship)*
 
 ### 🏆 Artifacts
 
-* **Deployed ML Research Paper: CTR Opportunity Score
-  ** [Read Here](https://bibek-dhakal.github.io/applied-search-intelligence/)
+* **Deployed ML Research Paper: CTR Opportunity Score**
+  [Read Here](https://bibek-dhakal.github.io/applied-search-intelligence/)
   A public research paper detailing my methodology on evaluating ML models honestly, mitigating data leakage, and
   framing ML as a decision-support tool.
 * **LunarLander-v2 Agent** [Link](https://huggingface.co/imbibek8366/ppo-LunarLander-v2)
