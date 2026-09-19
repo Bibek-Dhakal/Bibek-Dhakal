@@ -224,10 +224,9 @@ Internship)*
 ### Bachelor of Computer Application (BCA)
 
 **Nihareeka College of Management and Information Technology**
-*Tribhuvan University, Nepal • 2021 – 2026 (5-year timeline reflective of TU academic schedule/exam deferrals and
-calendar alignment)*
+*Tribhuvan University, Nepal • Completed Coursework and Examination on August 2026*
 
-**Status:** **Final examinations completed in August 2026. Fully available with no remaining academic obligations.**
+**Status:** **Fully available with no remaining academic obligations.**
 
 ---
 
@@ -257,7 +256,7 @@ calendar alignment)*
   ** [Read Here](https://bibek-dhakal.github.io/applied-search-intelligence/)
   A public research paper detailing my methodology on evaluating ML models honestly, mitigating data leakage, and
   framing ML as a decision-support tool.
-* **LunarLander-v2 Agent** [Link](https://github.com/bibek-dhakal/lunar-lander-v2-agent)
+* **LunarLander-v2 Agent** [Link](https://huggingface.co/imbibek8366/ppo-LunarLander-v2)
   Trained an autonomous agent to safely navigate a lunar module to its landing pad using the Proximal Policy
   Optimization (PPO) algorithm.
 
@@ -267,19 +266,5 @@ calendar alignment)*
 
 * **Email:** [imbibek8366@gmail.com](mailto:imbibek8366@gmail.com)
 * **LinkedIn:** [linkedin.com/in/bibek-dhakal-771ba5334](https://www.linkedin.com/in/bibek-dhakal-771ba5334/)
-
----
-
-## 💼 Open to Full-Time Opportunities
-
-I'm currently seeking **entry-level / associate roles** in:
-
-`Associate ML Engineer` · `Junior ML Engineer` · `AI Engineer` · `Entry-Level ML Engineer`
-
-I'm particularly interested in teams working on **LLM applications, machine-learning systems, inference optimization,
-intelligent backend services, and ML/data pipelines**.
-
-I'm also open to **MLOps / ML Platform opportunities** where the role is suitable for an early-career engineer with
-hands-on experience in **Docker, FastAPI, model serving, and ML deployment**.
 
 ---
