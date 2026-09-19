@@ -66,19 +66,19 @@ coming years.
 
 ### 📉 [Customer Churn Risk Intelligence](https://github.com/bibek-dhakal/customer-churn-risk-intelligence)
 
-**Production-ready ML pipeline for customer churn prediction and actionable risk segmentation.**
+**Enterprise-grade MLOps pipeline and real-time API for customer churn prediction and risk segmentation.**
 
-* Engineered a modular, end-to-end machine learning pipeline using **Scikit-Learn** and **LightGBM**, featuring
-  automated data validation, schema checking, and reproducible train/test splitting.
-* Designed a custom feature engineering module to capture customer lifecycle signals, such as financial exposure,
-  service adoption rates, and contract vulnerability.
-* Evaluated multiple algorithm families using **5-fold Stratified Cross-Validation**, ultimately selecting **Logistic
-  Regression (0.85 ROC-AUC)** over Random Forest/LightGBM due to its superior probability ranking sensitivity on
-  imbalanced datasets.
-* Structured the codebase using strong software engineering principles—separating configuration, feature engineering,
-  and modeling logic into a clean `src/` package for strict reproducibility.
-* Generated customer-level churn probabilities mapped to actionable business risk tiers (Low to Very High risk) for
-  targeted retention campaigns.
+* Engineered a production-ready machine learning pipeline featuring experiment tracking and model registry via
+  **MLflow**, alongside a real-time inference microservice built with **FastAPI** and containerized using **Docker**.
+* Implemented strict declarative data contracts using **Pandera** (training data) and **Pydantic** (API payloads) to
+  prevent silent data failures and ensure schema integrity.
+* Secured model persistence using **Skops** instead of legacy pickle files to eliminate arbitrary code execution
+  vulnerabilities in production environments.
+* Evaluated multiple algorithm families using 5-fold Stratified Cross-Validation, ultimately selecting **Logistic
+  Regression (0.85 ROC-AUC)** over Random Forest/LightGBM for superior probability ranking sensitivity on imbalanced
+  datasets.
+* Established a modern CI/CD workflow utilizing **GitHub Actions**, **Pytest**, **Ruff** for linting, and **Google
+  Release Please** for automated changelog generation and semantic versioning (v1.1.0).
 
 ### 🛡️ [Aegis Omnisearch Agent](https://github.com/bibek-dhakal/aegis-api)
 
