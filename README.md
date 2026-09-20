@@ -267,5 +267,6 @@ Internship)*
 
 * **Email:** [imbibek8366@gmail.com](mailto:imbibek8366@gmail.com)
 * **LinkedIn:** [linkedin.com/in/bibek-dhakal-771ba5334](https://www.linkedin.com/in/bibek-dhakal-771ba5334/)
+* [Portfolio](https://bibek-dhakal-fr.vercel.app/)
 
 ---
