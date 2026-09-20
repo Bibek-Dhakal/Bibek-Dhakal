@@ -17,7 +17,7 @@ Associate/Junior ML Engineer where I can grow with a core engineering team and c
 coming years.
 
 **🎯 Recent:** Completed AI/ML Internship at FlyRank AI (Published Capstone on Data Leakage & Search Intelligence) <br>
-**🎓 Education:** BCA final examinations completed in August 2026 <br>
+**🎓 Education:** BCA final semester examinations completed in August 2026 <br>
 **💼 Status:** **Available immediately for full-time employment** <br>
 **🔎 Seeking:** **Associate / Junior ML Engineer, AI Engineer, or Entry-Level ML Engineer roles**
 
@@ -175,7 +175,7 @@ pip install lexibyte
 
 ### Training & Apprenticeships
 
-**Data Science & ML Apprentice** — *Skill Shikshya* | **Apr 2026 – Jul 2026**
+**Data Science & ML Apprentice** — *Skill Shikshya* | **Apr 2026 – June 2026**
 
 * Completed a hands-on learning track covering machine-learning mathematics, vector computation, classical ML, and
   deep-learning concepts.
@@ -224,7 +224,7 @@ Internship)*
 ### Bachelor of Computer Application (BCA)
 
 **Nihareeka College of Management and Information Technology**
-*Tribhuvan University, Nepal • Completed Coursework and Examination on August 2026*
+*Tribhuvan University, Nepal • Completed Final Semester Coursework and Examination on August 2026*
 
 **Status:** **Fully available with no remaining academic obligations.**
 
@@ -241,8 +241,8 @@ Internship)*
 * **Anthropic Academy — Claude Code in Action** [Link](https://verify.skilljar.com/c/ho48cm8wcsa9)
 * **Anthropic Academy — Building with the Claude API** [Link](https://verify.skilljar.com/c/hg695uod5bb8)
 * **Anthropic Academy — MCP Advanced Topics** [Link](https://verify.skilljar.com/c/bf7vbtdiv8ti)
-* **Anthropic Academy — Claude in Amazon Bedrock** [Link](https://verify.skilljar.com/c/gesgzvi2zhk5)
-* **Anthropic Academy — Claude in Google Vertex AI** [Link](https://verify.skilljar.com/c/umhhhrba6gkf)
+* **Anthropic Academy — Claude on Amazon Bedrock** [Link](https://verify.skilljar.com/c/gesgzvi2zhk5)
+* **Anthropic Academy — Claude on Google Vertex AI** [Link](https://verify.skilljar.com/c/umhhhrba6gkf)
 
 ### Kaggle Certificates: [Link](https://www.kaggle.com/bibekdhakal8366)
 
