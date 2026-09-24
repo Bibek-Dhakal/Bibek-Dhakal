@@ -29,7 +29,7 @@ coming years.
 * 🤖 **LLMs & NLP** — tokenization, BPE, RAG, AI agents, Hugging Face
 * ⚡ **ML Inference** — ONNX Runtime, INT8 quantization, CPU inference, memory optimization
 * 📊 **Data Processing** — DuckDB, BigQuery, PostgreSQL, Pandas, NumPy
-* 🔧 **Backend & Deployment** — FastAPI, Docker, Celery, Redis, REST APIs, WebSockets
+* 🔧 **Backend, MLOps & Deployment** — FastAPI, Docker, CI/CD, Automated Testing, REST APIs
 * 🌐 **Applications** — React, Next.js, Streamlit, Flutter
 
 ---
@@ -42,7 +42,7 @@ coming years.
 | **Machine Learning & AI** | PyTorch, TensorFlow, Scikit-Learn, NumPy, Pandas, OpenCV, Hugging Face |
 | **LLM / Inference**       | Transformers, ONNX Runtime, FAISS, FlashAttention, BPE Tokenization    |
 | **Data & Databases**      | DuckDB, Google BigQuery, PostgreSQL, Redis                             |
-| **Backend & Deployment**  | FastAPI, Celery, Docker, REST APIs, WebSockets, Flower                 |
+| **Backend & MLOps**       | FastAPI, Docker, GitHub Actions, Pytest, Celery, WebSockets, MLflow    |
 | **Frontend & Mobile**     | React, Next.js, TailwindCSS, Flutter                                   |
 
 ---
@@ -63,6 +63,21 @@ coming years.
   decision-making.
 * Published the full methodology, leakage audit, and results as a
   deployed [Research Paper](https://bibek-dhakal.github.io/applied-search-intelligence/).
+
+### 🧪 [TabTrace: Reproducible ML Pipeline](https://github.com/Bibek-Dhakal/tabtrace)
+
+**Reproducible tabular ML pipeline enforcing justified feature engineering and cross-validated evaluation.**
+
+* Rejected "notebook-only" ML: designed the entire pipeline from data ingestion to feature engineering as pure,
+  unit-tested Python functions.
+* Enforced declarative feature justifications via a custom Python decorator registry, automatically halting the pipeline
+  if rationale is missing.
+* Implemented deterministic, saved train/val/test splits with strict data leakage checks to guarantee honest model
+  evaluation.
+* Evaluated a Logistic Regression baseline against a grid-searched Random Forest using 5-fold stratified
+  cross-validation.
+* Configured automated CI/CD gating using **GitHub Actions**, strictly enforcing **>90% test coverage with Pytest**,
+  Ruff formatting, and semantic versioning via Release Please.
 
 ### 📉 [Customer Churn Risk Intelligence](https://github.com/bibek-dhakal/customer-churn-risk-intelligence)
 
