@@ -79,6 +79,19 @@ coming years.
 * Configured automated CI/CD gating using **GitHub Actions**, strictly enforcing **>90% test coverage with Pytest**,
   Ruff formatting, and semantic versioning via Release Please.
 
+### 🚀 [ModelGate: ML Inference API](https://github.com/Bibek-Dhakal/modelgate)
+
+**Production-ready, containerized machine learning inference API with zero boilerplate.**
+
+* **Dynamic Artifact Loading:** Instantly serves `.joblib` or `.pkl` models by fetching them directly via HTTP URLs on
+  startup using Environment Variables.
+* **Strict Input Validation:** Uses dynamic `schema.json` boundaries to strictly validate incoming payloads, ensuring
+  malformed data never hits the execution layer.
+* **Error Shielding Architecture:** Overridden FastAPI exception handlers guarantee zero leaked Python stack traces,
+  returning only clean `422` and `500` JSON responses.
+* **Containerized & CI/CD Enforced:** Fully Docker-native, rigorously tested via **Pytest**, and governed by **GitHub
+  Actions** (Ruff Linting, Release Please Versioning).
+
 ### 📉 [Customer Churn Risk Intelligence](https://github.com/bibek-dhakal/customer-churn-risk-intelligence)
 
 **Enterprise-grade MLOps pipeline and real-time API for customer churn prediction and risk segmentation.**
@@ -93,7 +106,7 @@ coming years.
   Regression (0.85 ROC-AUC)** over Random Forest/LightGBM for superior probability ranking sensitivity on imbalanced
   datasets.
 * Established a modern CI/CD workflow utilizing **GitHub Actions**, **Pytest**, **Ruff** for linting, and **Google
-  Release Please** for automated changelog generation and semantic versioning (v1.1.0).
+  Release Please** for automated changelog generation and semantic versioning.
 
 ### 🛡️ [Aegis Omnisearch Agent](https://github.com/bibek-dhakal/aegis-api)
 
@@ -282,6 +295,6 @@ Internship)*
 
 * **Email:** [imbibek8366@gmail.com](mailto:imbibek8366@gmail.com)
 * **LinkedIn:** [linkedin.com/in/bibek-dhakal-771ba5334](https://www.linkedin.com/in/bibek-dhakal-771ba5334/)
-* [Portfolio](https://bibek-dhakal-fr.vercel.app/)
+* **Portfolio:** [Portfolio](https://bibek-dhakal-fr.vercel.app/)
 
 ---
