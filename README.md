@@ -131,10 +131,6 @@ coming years.
 * Implemented UTF-8 byte-level fallbacks to avoid out-of-vocabulary failures.
 * Published the package to PyPI.
 
-```bash
-pip install lexibyte
-```
-
 ---
 
 ### ⚡ [Forge-LM](https://github.com/bibek-dhakal/forge-lm) & [NanoTransformer](https://github.com/bibek-dhakal/nanotransformer)
@@ -181,6 +177,31 @@ pip install lexibyte
   level.
 * Added **FastAPI WebSockets** to stream training metrics.
 * Built a **React + HTML5 Canvas** interface to visualize epoch, loss, and accuracy in real time.
+
+---
+
+### 📉 [OverfitLab](https://github.com/Bibek-Dhakal/overfitlab)
+
+**A deep learning experiment demonstrating the diagnosis and correction of overfitting.**
+
+* Simulated a classic failure mode (memorizing noise) on a highly non-linear synthetic dataset using a deep *
+  *Multi-Layer Perceptron (MLP)** baseline.
+* Diagnosed train/validation loss divergence and restored generalization by applying **Dropout (p=0.5)** and **L2 Weight
+  Decay** in **PyTorch**.
+* Built as a modular, reproducible Python package featuring deterministic data generation, agnostic training loops, and
+  **Matplotlib** visualizations.
+* Enforced robustness and code quality with **Pytest**, **Ruff**, **pre-commit hooks**, and **GitHub Actions** CI
+  pipelines.
+
+---
+
+### 🚀 [LunarLander-v2 Agent](https://huggingface.co/imbibek8366/ppo-LunarLander-v2)
+
+**Reinforcement-learning agent trained with PPO.**
+
+* Trained an autonomous agent to safely navigate a lunar module to its landing pad using the Proximal Policy
+  Optimization (PPO) algorithm.
+* Standard RL benchmark environment, done as an extensive learning exercise.
 
 ---
 
