@@ -29,7 +29,7 @@ coming years.
 * 🤖 **LLMs & NLP** — tokenization, BPE, RAG, AI agents, Hugging Face
 * ⚡ **ML Inference** — ONNX Runtime, INT8 quantization, CPU inference, memory optimization
 * 📊 **Data Processing** — DuckDB, BigQuery, PostgreSQL, Pandas, NumPy
-* 🔧 **Backend, MLOps & Deployment** — FastAPI, Docker, CI/CD, Automated Testing, REST APIs
+* 🔧 **Backend, MLOps & Deployment** — FastAPI, Docker, CI/CD, Automated Testing, REST APIs, PyPI Packaging
 * 🌐 **Applications** — React, Next.js, Streamlit, Flutter
 
 ---
@@ -79,17 +79,20 @@ coming years.
 * Configured automated CI/CD gating using **GitHub Actions**, strictly enforcing **>90% test coverage with Pytest**,
   Ruff formatting, and semantic versioning via Release Please.
 
-### 🚀 [ModelGate: ML Inference API](https://github.com/Bibek-Dhakal/modelgate)
+### 🚀 [ModelGate: ML Inference API & Python SDK](https://github.com/Bibek-Dhakal/modelgate)
 
-**Production-ready, containerized machine learning inference API with zero boilerplate.**
+**Production-ready, containerized machine learning inference API and native Python SDK with zero boilerplate.**
 
 * **Dynamic Artifact Loading:** Instantly serves `.joblib` or `.pkl` models by fetching them directly via HTTP URLs on
   startup using Environment Variables.
+* **Native Python SDK:** Published on [PyPI](https://pypi.org/project/modelgate-py/) (`pip install modelgate-py`) to
+  integrate dynamic loading and strict validation directly into existing codebases.
 * **Strict Input Validation:** Uses dynamic `schema.json` boundaries to strictly validate incoming payloads, ensuring
   malformed data never hits the execution layer.
 * **Error Shielding Architecture:** Overridden FastAPI exception handlers guarantee zero leaked Python stack traces,
   returning only clean `422` and `500` JSON responses.
-* **Containerized & CI/CD Enforced:** Fully Docker-native, rigorously tested via **Pytest**, and governed by **GitHub
+* **Containerized & CI/CD Enforced:** Fully Docker-native, rigorously tested via **Pytest** (including interactive
+  Jupyter notebooks), and governed by **GitHub
   Actions** (Ruff Linting, Release Please Versioning).
 
 ### 📉 [Customer Churn Risk Intelligence](https://github.com/bibek-dhakal/customer-churn-risk-intelligence)
@@ -129,7 +132,7 @@ coming years.
 * Built a frequency dictionary during BPE training to reduce unnecessary merge checks.
 * Added memoization to avoid repeated tokenization work during inference.
 * Implemented UTF-8 byte-level fallbacks to avoid out-of-vocabulary failures.
-* Published the package to PyPI.
+* Published the package to PyPI (`pip install lexibyte): [Lexibyte](https://pypi.org/project/lexibyte/)
 
 ---
 
@@ -184,8 +187,8 @@ coming years.
 
 **A deep learning experiment demonstrating the diagnosis and correction of overfitting.**
 
-* Simulated a classic failure mode (memorizing noise) on a highly non-linear synthetic dataset using a deep *
-  *Multi-Layer Perceptron (MLP)** baseline.
+* Simulated a classic failure mode (memorizing noise) on a highly non-linear synthetic dataset using a deep
+  **Multi-Layer Perceptron (MLP)** baseline.
 * Diagnosed train/validation loss divergence and restored generalization by applying **Dropout (p=0.5)** and **L2 Weight
   Decay** in **PyTorch**.
 * Built as a modular, reproducible Python package featuring deterministic data generation, agnostic training loops, and
