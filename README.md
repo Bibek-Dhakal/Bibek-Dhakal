@@ -29,7 +29,7 @@ coming years.
 * 🤖 **LLMs & NLP** — tokenization, BPE, RAG, AI agents, Hugging Face
 * ⚡ **ML Inference** — ONNX Runtime, INT8 quantization, CPU inference, memory optimization
 * 📊 **Data Processing** — DuckDB, BigQuery, PostgreSQL, Pandas, NumPy
-* 🔧 **Backend, MLOps & Deployment** — FastAPI, Docker, CI/CD, Automated Testing, REST APIs, PyPI Packaging
+* 🔧 **Backend, MLOps & Deployment** — FastAPI, Docker, Kubernetes, CI/CD, Automated Testing, REST APIs, PyPI Packaging
 * 🌐 **Applications** — React, Next.js, Streamlit, Flutter
 
 ---
@@ -42,7 +42,7 @@ coming years.
 | **Machine Learning & AI** | PyTorch, TensorFlow, Scikit-Learn, NumPy, Pandas, OpenCV, Hugging Face |
 | **LLM / Inference**       | Transformers, ONNX Runtime, FAISS, FlashAttention, BPE Tokenization    |
 | **Data & Databases**      | DuckDB, Google BigQuery, PostgreSQL, Redis                             |
-| **Backend & MLOps**       | FastAPI, Docker, GitHub Actions, Pytest, Celery, WebSockets, MLflow    |
+| **Backend & MLOps**       | FastAPI, Docker, Kubernetes, GitHub Actions, Pytest, MLflow, Prefect   |
 | **Frontend & Mobile**     | React, Next.js, TailwindCSS, Flutter                                   |
 
 ---
@@ -63,6 +63,19 @@ coming years.
   decision-making.
 * Published the full methodology, leakage audit, and results as a
   deployed [Research Paper](https://bibek-dhakal.github.io/applied-search-intelligence/).
+
+### 🌊 [FlowTrace: DAG-Orchestrated ML Pipeline](https://github.com/Bibek-Dhakal/flowtrace)
+
+**DAG-orchestrated, parameterized, lineage-tracked ML pipeline with strict data quality gating.**
+
+* **DAG Orchestration:** Built an explicit Directed Acyclic Graph (DAG) using **Prefect** to isolate, monitor, and scale
+  pipeline stages.
+* **Strict Quality Gating:** Enforced declarative data boundaries with **Pandera**, natively halting execution before
+  expensive training jobs if data is corrupt.
+* **Cryptographic Lineage:** Integrated **MLflow** to cryptographically link every model artifact to the exact input
+  data version (via SHA256 hash) and track hyperparameter metrics.
+* **Automated Promotion:** Implemented CI/CD logic to evaluate newly trained models against the active production model,
+  automatically assigning the `@champion` alias to the best performer.
 
 ### 🧪 [TabTrace: Reproducible ML Pipeline](https://github.com/Bibek-Dhakal/tabtrace)
 
@@ -94,6 +107,19 @@ coming years.
 * **Containerized & CI/CD Enforced:** Fully Docker-native, rigorously tested via **Pytest** (including interactive
   Jupyter notebooks), and governed by **GitHub
   Actions** (Ruff Linting, Release Please Versioning).
+
+### ☸️ [ServeScale: Kubernetes ML Serving System](https://github.com/Bibek-Dhakal/servescale)
+
+**Horizontally scalable, latency-optimized machine learning model serving system built on Kubernetes.**
+
+* **Inference Optimization:** Leveraged **ONNX Runtime** and **8-bit Dynamic Quantization** to significantly minimize
+  the model's container memory footprint and CPU latency.
+* **Kubernetes Orchestration:** Configured deployment topology with liveness and readiness probes to safely handle
+  auto-scaling and pod lifecycle events.
+* **Zero-Downtime Rollouts:** Integrated **Locust** load testing to explicitly verify that exactly **0 requests are
+  dropped** during live RollingUpdates under concurrent HTTP traffic.
+* **Standardized Engineering:** Built as a robust **FastAPI** application, containerized via Docker, and tested strictly
+  via Pytest within a modern Python ecosystem.
 
 ### 📉 [Customer Churn Risk Intelligence](https://github.com/bibek-dhakal/customer-churn-risk-intelligence)
 
@@ -132,7 +158,7 @@ coming years.
 * Built a frequency dictionary during BPE training to reduce unnecessary merge checks.
 * Added memoization to avoid repeated tokenization work during inference.
 * Implemented UTF-8 byte-level fallbacks to avoid out-of-vocabulary failures.
-* Published the package to PyPI (`pip install lexibyte): [Lexibyte](https://pypi.org/project/lexibyte/)
+* Published the package to PyPI (`pip install lexibyte`): [Lexibyte](https://pypi.org/project/lexibyte/)
 
 ---
 
