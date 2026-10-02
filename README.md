@@ -51,16 +51,16 @@ coming years.
 
 ### 🏗️ [DataMart-Flex](https://github.com/Bibek-Dhakal/DataMart-Flex)
 
-**[PLACEHOLDER - UPDATE TAGLINE] Flexible and automated data mart pipeline for scalable business intelligence.**
+**Enterprise Star-Schema Data Mart and Self-Serve BI Analytics Hub powered by DuckDB.**
 
-* **[PLACEHOLDER] Automated Data Pipeline:** Engineered a robust ETL pipeline to extract, transform, and load raw data
-  into a flexible dimensional schema.
-* **[PLACEHOLDER] Data Validation:** Implemented strict data validation and schema enforcement to ensure high data
-  integrity.
-* **[PLACEHOLDER] High-Performance Processing:** Optimized data processing workflows resulting in significantly reduced
-  execution times.
-* **Enterprise CI/CD:** Maintained strict engineering standards with end-to-end **Pytest** coverage, **Ruff** linting,
-  and semantic versioning through **Release Please**.
+* **Automated Data Pipeline:** Engineered an automated ETL pipeline using Python and DuckDB to transform 100,000+ raw
+  transactional records into a strict Kimball-methodology dimensional model.
+* **Synthetic Data Generation:** Generated realistic synthetic business datasets (customers, products, channels, and
+  orders) using the Python `Faker` library to simulate an enterprise data ecosystem.
+* **Advanced BI Integration:** Built a comprehensive Power BI showcase dashboard utilizing explicit DAX and Time
+  Intelligence measures (YTD, MoM Growth, Rolling Averages) for executive reporting.
+* **Enterprise CI/CD:** Maintained strict engineering standards with automated **Pytest** coverage, **Ruff** linting,
+  pre-commit hooks, and semantic versioning through **Release Please** via GitHub Actions.
 
 ### 🧪 [StatTest-Pro](https://github.com/Bibek-Dhakal/StatTest-Pro)
 
