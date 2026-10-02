@@ -28,7 +28,7 @@ coming years.
 * 🧠 **Machine Learning & Deep Learning** — PyTorch, TensorFlow, Scikit-Learn, Transformer architectures
 * 🤖 **LLMs & NLP** — tokenization, BPE, RAG, AI agents, Hugging Face
 * ⚡ **ML Inference** — ONNX Runtime, INT8 quantization, CPU inference, memory optimization
-* 📊 **Data Processing** — DuckDB, BigQuery, PostgreSQL, Pandas, NumPy
+* 📊 **Data Processing & Pipelines** — DuckDB, BigQuery, PostgreSQL, SQLite, Pandas, NumPy, Pydantic, SQLAlchemy
 * 🔧 **Backend, MLOps & Deployment** — FastAPI, Docker, Kubernetes, CI/CD, Automated Testing, REST APIs, PyPI Packaging
 * 🌐 **Applications** — React, Next.js, Streamlit, Flutter
 
@@ -36,18 +36,31 @@ coming years.
 
 ## 🛠 Tech Stack
 
-| Category                  | Technologies                                                           |
-|:--------------------------|:-----------------------------------------------------------------------|
-| **Languages**             | Python, TypeScript, SQL, C#, Dart                                      |
-| **Machine Learning & AI** | PyTorch, TensorFlow, Scikit-Learn, NumPy, Pandas, OpenCV, Hugging Face |
-| **LLM / Inference**       | Transformers, ONNX Runtime, FAISS, FlashAttention, BPE Tokenization    |
-| **Data & Databases**      | DuckDB, Google BigQuery, PostgreSQL, Redis                             |
-| **Backend & MLOps**       | FastAPI, Docker, Kubernetes, GitHub Actions, Pytest, MLflow, Prefect   |
-| **Frontend & Mobile**     | React, Next.js, TailwindCSS, Flutter                                   |
+| Category                  | Technologies                                                                   |
+|:--------------------------|:-------------------------------------------------------------------------------|
+| **Languages**             | Python, TypeScript, SQL, C#, Dart                                              |
+| **Machine Learning & AI** | PyTorch, TensorFlow, Scikit-Learn, NumPy, Pandas, OpenCV, Hugging Face         |
+| **LLM / Inference**       | Transformers, ONNX Runtime, FAISS, FlashAttention, BPE Tokenization            |
+| **Data & BI**             | DuckDB, Google BigQuery, PostgreSQL, SQLite, SQLAlchemy, Redis, Power BI       |
+| **Backend & MLOps**       | FastAPI, Docker, Kubernetes, GitHub Actions, Pytest, Pydantic, MLflow, Prefect |
+| **Frontend & Mobile**     | React, Next.js, TailwindCSS, Flutter                                           |
 
 ---
 
 ## 📌 Featured Projects
+
+### 📈 [ExecPulse-BI](https://github.com/Bibek-Dhakal/exec-pulse-BI)
+
+**Interactive Sales & Operations BI Dashboard built on automated Star-Schema Data Modeling.**
+
+* **Automated ETL Pipeline:** Designed to tackle scattered data sources by pushing heavy row-level transformations into
+  programmatic Python/Pandas ETL steps, converting 50,000+ raw transactions into a strict dimensional Star Schema.
+* **Optimized Storage & BI Consumption:** Exported normalized dimensional tables into a local **SQLite** database via
+  **SQLAlchemy** and generated flat CSVs for highly-performant, cross-platform BI ingestion.
+* **Dynamic KPI Calculations:** Developed a ready-to-use **Power BI** dashboard (`.pbix`) driven by dynamic DAX measures
+  (Total Revenue, Profit Margins, YoY Growth, Rolling 30-Day Sales).
+* **Enterprise CI/CD:** Maintained strict code quality via **Ruff**, **Pytest**, pre-commit hooks, and semantic
+  versioning through Google's Release Please.
 
 ### 📊 [Applied Search Intelligence: CTR Opportunity Scoring](https://bibek-dhakal.github.io/applied-search-intelligence/)
 
@@ -63,6 +76,28 @@ coming years.
   decision-making.
 * Published the full methodology, leakage audit, and results as a
   deployed [Research Paper](https://bibek-dhakal.github.io/applied-search-intelligence/).
+
+### 📊 [InsightStory-EDA](https://github.com/Bibek-Dhakal/InsightStory-EDA)
+
+**SQL-driven exploratory analysis of e-commerce customer behavior, automated into an executive presentation.**
+
+* **Automated Data Storytelling:** Developed a Python CLI tool that runs the analytical pipeline end-to-end—from building a database to programmatically generating a 5-slide executive deck (`.pptx` & `.pdf`) complete with metric-backed insights and charts.
+* **SQL & DuckDB Analytics:** Engineered 9 complex SQL queries and views using **DuckDB** to analyze RFM segments, cohort retention, profit concentration, and monthly churn trends.
+* **Synthetic Data Generation:** Built a deterministic data generator using **NumPy** and **Pandas** to simulate realistic e-commerce transactions, customer archetypes, and category margins.
+* **Strict Engineering Standards:** Maintained an enterprise-grade codebase governed by **GitHub Actions**, with robust test coverage via **Pytest**, strict linting/formatting via **Ruff**, and semantic versioning through **Release Please**.
+
+### 🧹 [DataCleanse-Lite](https://github.com/Bibek-Dhakal/data-cleanse-lite)
+
+**Automated Multi-Source E-Commerce ETL Pipeline with Pandas Data Cleaning, Validation Checks, and SQL Storage.**
+
+* **High Throughput ETL:** Extracted, cleaned, validated, and loaded **100,000 messy records** in **~2.24 seconds**
+  using in-memory `pandas` manipulation, outperforming the strict 30-second SLA by over 13x.
+* **Strict Validation & Quarantine:** Leveraged **Pydantic** to assert strict data contracts (null constraints, typing),
+  gracefully trapping and quarantining ~21% of corrupted records to flat files rather than failing silently.
+* **Data Standardization:** Reconciled disparate payload sources (CSV/JSON), stripped invalid text artifacts,
+  standardized dates, and imputed missing numeric logic prior to relational storage via **SQLAlchemy** into **SQLite**.
+* **Enterprise CI/CD Workflow:** Established comprehensive repository standards via **pre-commit hooks**, **Ruff** for
+  linting/formatting, **Pytest** for testing, and semantic versioning via **Release Please**.
 
 ### 🌊 [FlowTrace: DAG-Orchestrated ML Pipeline](https://github.com/Bibek-Dhakal/flowtrace)
 
@@ -105,8 +140,7 @@ coming years.
 * **Error Shielding Architecture:** Overridden FastAPI exception handlers guarantee zero leaked Python stack traces,
   returning only clean `422` and `500` JSON responses.
 * **Containerized & CI/CD Enforced:** Fully Docker-native, rigorously tested via **Pytest** (including interactive
-  Jupyter notebooks), and governed by **GitHub
-  Actions** (Ruff Linting, Release Please Versioning).
+  Jupyter notebooks), and governed by **GitHub Actions** (Ruff Linting, Release Please Versioning).
 
 ### ☸️ [ServeScale: Kubernetes ML Serving System](https://github.com/Bibek-Dhakal/servescale)
 
