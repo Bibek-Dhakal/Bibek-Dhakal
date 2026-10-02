@@ -36,18 +36,60 @@ coming years.
 
 ## 🛠 Tech Stack
 
-| Category                  | Technologies                                                                   |
-|:--------------------------|:-------------------------------------------------------------------------------|
-| **Languages**             | Python, TypeScript, SQL, C#, Dart                                              |
-| **Machine Learning & AI** | PyTorch, TensorFlow, Scikit-Learn, NumPy, Pandas, OpenCV, Hugging Face         |
-| **LLM / Inference**       | Transformers, ONNX Runtime, FAISS, FlashAttention, BPE Tokenization            |
-| **Data & BI**             | DuckDB, Google BigQuery, PostgreSQL, SQLite, SQLAlchemy, Redis, Power BI       |
-| **Backend & MLOps**       | FastAPI, Docker, Kubernetes, GitHub Actions, Pytest, Pydantic, MLflow, Prefect |
-| **Frontend & Mobile**     | React, Next.js, TailwindCSS, Flutter                                           |
+| Category                  | Technologies                                                                               |
+|:--------------------------|:-------------------------------------------------------------------------------------------|
+| **Languages**             | Python, TypeScript, SQL, C#, Dart                                                          |
+| **Machine Learning & AI** | PyTorch, TensorFlow, Scikit-Learn, SciPy, Statsmodels, NumPy, Pandas, OpenCV, Hugging Face |
+| **LLM / Inference**       | Transformers, ONNX Runtime, FAISS, FlashAttention, BPE Tokenization                        |
+| **Data & BI**             | DuckDB, Google BigQuery, PostgreSQL, SQLite, SQLAlchemy, Redis, Power BI                   |
+| **Backend & MLOps**       | FastAPI, Docker, Kubernetes, GitHub Actions, Pytest, Pydantic, MLflow, Prefect             |
+| **Frontend & Mobile**     | React, Next.js, TailwindCSS, Flutter                                                       |
 
 ---
 
 ## 📌 Featured Projects
+
+### 🏗️ [DataMart-Flex](https://github.com/Bibek-Dhakal/DataMart-Flex)
+
+**[PLACEHOLDER - UPDATE TAGLINE] Flexible and automated data mart pipeline for scalable business intelligence.**
+
+* **[PLACEHOLDER] Automated Data Pipeline:** Engineered a robust ETL pipeline to extract, transform, and load raw data
+  into a flexible dimensional schema.
+* **[PLACEHOLDER] Data Validation:** Implemented strict data validation and schema enforcement to ensure high data
+  integrity.
+* **[PLACEHOLDER] High-Performance Processing:** Optimized data processing workflows resulting in significantly reduced
+  execution times.
+* **Enterprise CI/CD:** Maintained strict engineering standards with end-to-end **Pytest** coverage, **Ruff** linting,
+  and semantic versioning through **Release Please**.
+
+### 🧪 [StatTest-Pro](https://github.com/Bibek-Dhakal/StatTest-Pro)
+
+**End-to-End A/B Testing Analysis Framework with automated SRM safety checks and executive reporting.**
+
+* **Statistical Rigor:** Engineered a Python SDK that calculates required sample sizes pre-test using `statsmodels` to
+  ensure well-powered experiments.
+* **Automated Safety Invariants:** Enforced automated Sample Ratio Mismatch (SRM) anomaly detection via Chi-Square
+  Goodness-of-Fit, halting evaluations if $p < 0.01$.
+* **Analytical Evaluation:** Evaluated proportional metrics using Z-tests to compute exact p-values, relative lifts, and
+  95% Confidence Intervals.
+* **Executive Reporting:** Programmatically generated 1-page HTML/PDF summary reports featuring data visualizations
+  using `Matplotlib`, `Seaborn`, and `Jinja2` templating.
+* **Enterprise CI/CD & Packaging:** Packaged and published natively to [PyPI](https://pypi.org/project/stattest-pro/),
+  maintained with rigorous standards including `Pytest` coverage, `Ruff` linting, pre-commit hooks, and GitHub Actions
+  (Release Please).
+
+### ⚙️ [CohortLTV-Engine](https://github.com/Bibek-Dhakal/CohortLTVEngine)
+
+**Automated Customer Cohort Retention and Lifetime Value (LTV) Analytics Engine.**
+
+* **High-Performance Execution:** In-process analytics using **DuckDB** to process 1,000,000+ transactional rows locally
+  in **~174ms**, massively exceeding the sub-5 second SLA constraint.
+* **Advanced SQL Transformations:** Engineered complex data pipelines utilizing Window Functions, CTEs, and aggregated
+  joins to accurately compute month-over-month retention and rolling LTV metrics.
+* **Automated Python ETL:** Developed a fully automated pipeline scheduled via **GitHub Actions** that extracts raw
+  data, performs heavy transformations, logs execution metadata, and exports BI-ready CSVs.
+* **Enterprise CI/CD:** Maintained strict engineering standards with end-to-end **Pytest** coverage, **Ruff**
+  linting/formatting, pre-commit hooks, and semantic versioning through **Release Please**.
 
 ### 📈 [ExecPulse-BI](https://github.com/Bibek-Dhakal/exec-pulse-BI)
 
@@ -81,10 +123,16 @@ coming years.
 
 **SQL-driven exploratory analysis of e-commerce customer behavior, automated into an executive presentation.**
 
-* **Automated Data Storytelling:** Developed a Python CLI tool that runs the analytical pipeline end-to-end—from building a database to programmatically generating a 5-slide executive deck (`.pptx` & `.pdf`) complete with metric-backed insights and charts.
-* **SQL & DuckDB Analytics:** Engineered 9 complex SQL queries and views using **DuckDB** to analyze RFM segments, cohort retention, profit concentration, and monthly churn trends.
-* **Synthetic Data Generation:** Built a deterministic data generator using **NumPy** and **Pandas** to simulate realistic e-commerce transactions, customer archetypes, and category margins.
-* **Strict Engineering Standards:** Maintained an enterprise-grade codebase governed by **GitHub Actions**, with robust test coverage via **Pytest**, strict linting/formatting via **Ruff**, and semantic versioning through **Release Please**.
+* **Automated Data Storytelling:** Developed a Python CLI tool that runs the analytical pipeline end-to-end—from
+  building a database to programmatically generating a 5-slide executive deck (`.pptx` & `.pdf`) complete with
+  metric-backed insights and charts.
+* **SQL & DuckDB Analytics:** Engineered 9 complex SQL queries and views using **DuckDB** to analyze RFM segments,
+  cohort retention, profit concentration, and monthly churn trends.
+* **Synthetic Data Generation:** Built a deterministic data generator using **NumPy** and **Pandas** to simulate
+  realistic e-commerce transactions, customer archetypes, and category margins.
+* **Strict Engineering Standards:** Maintained an enterprise-grade codebase governed by **GitHub Actions**, with robust
+  test coverage via **Pytest**, strict linting/formatting via **Ruff**, and semantic versioning through **Release
+  Please**.
 
 ### 🧹 [DataCleanse-Lite](https://github.com/Bibek-Dhakal/data-cleanse-lite)
 
@@ -344,8 +392,8 @@ Internship)*
 
 ## 📜 Certifications
 
-* **FlyRank AI — Machine Learning Internship Certificate**
-  [Link](https://internship.flyrank.ai/verify/FR-D11-20CBF-CC2BF?first_name=Bibek)
+* **FlyRank AI — Machine Learning Internship
+  Certificate** [Link](https://internship.flyrank.ai/verify/FR-D11-20CBF-CC2BF?first_name=Bibek)
 * **Skill Shikshya — Data Science & ML Diploma** [Link](https://skillshikshya.com/verify-certificates/DSAMLDC260023)
 
 ## Anthropic Academy Certifications:
@@ -365,8 +413,8 @@ Internship)*
 
 ### 🏆 Artifacts
 
-* **Deployed ML Research Paper: CTR Opportunity Score**
-  [Read Here](https://bibek-dhakal.github.io/applied-search-intelligence/)
+* **Deployed ML Research Paper: CTR Opportunity
+  Score** [Read Here](https://bibek-dhakal.github.io/applied-search-intelligence/)
   A public research paper detailing my methodology on evaluating ML models honestly, mitigating data leakage, and
   framing ML as a decision-support tool.
 * **LunarLander-v2 Agent** [Link](https://huggingface.co/imbibek8366/ppo-LunarLander-v2)
