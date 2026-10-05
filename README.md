@@ -28,9 +28,9 @@ coming years.
 * 🧠 **Machine Learning & Deep Learning** — PyTorch, TensorFlow, Scikit-Learn, Transformer architectures
 * 🤖 **LLMs & NLP** — tokenization, BPE, RAG, AI agents, Hugging Face
 * ⚡ **ML Inference** — ONNX Runtime, INT8 quantization, CPU inference, memory optimization
-* 📊 **Data Processing & Pipelines** — DuckDB, BigQuery, PostgreSQL, SQLite, Pandas, NumPy, Pydantic, SQLAlchemy
+* 📊 **Data Processing & Pipelines** — Apache Spark, Delta Lake, DuckDB, Airflow, dbt, PostgreSQL
 * 🔧 **Backend, MLOps & Deployment** — FastAPI, Docker, Kubernetes, CI/CD, Automated Testing, REST APIs, PyPI Packaging
-* 🌐 **Applications** — React, Next.js, Streamlit, Flutter
+* 🌐 **Applications** — React, Next.js, Streamlit, Metabase, Power BI
 
 ---
 
@@ -41,13 +41,40 @@ coming years.
 | **Languages**             | Python, TypeScript, SQL, C#, Dart                                                          |
 | **Machine Learning & AI** | PyTorch, TensorFlow, Scikit-Learn, SciPy, Statsmodels, NumPy, Pandas, OpenCV, Hugging Face |
 | **LLM / Inference**       | Transformers, ONNX Runtime, FAISS, FlashAttention, BPE Tokenization                        |
-| **Data & BI**             | DuckDB, Google BigQuery, PostgreSQL, SQLite, SQLAlchemy, Redis, Power BI                   |
-| **Backend & MLOps**       | FastAPI, Docker, Kubernetes, GitHub Actions, Pytest, Pydantic, MLflow, Prefect             |
-| **Frontend & Mobile**     | React, Next.js, TailwindCSS, Flutter                                                       |
+| **Data & BI**             | Apache Spark, Delta Lake, DuckDB, PostgreSQL, BigQuery, Airflow, dbt, Metabase, Power BI   |
+| **Backend & MLOps**       | FastAPI, Docker, Kubernetes, GitHub Actions, Pytest, Pydantic, MLflow, Prefect, Prometheus |
+| **Frontend & Mobile**     | React, Next.js, TailwindCSS, Streamlit, Flutter                                            |
 
 ---
 
 ## 📌 Featured Projects
+
+### 🌊 [LakeForge](https://github.com/Bibek-Dhakal/LakeForge)
+
+**Medallion lakehouse ETL/ELT with idempotent incremental processing, quality quarantine, and governed serving.**
+
+* **Idempotent Data Lakehouse:** Architected a 100% Docker-first open-source pipeline utilizing **Apache Spark** and
+  **Delta Lake** to process data deterministically through Landing, Bronze, Silver, and Gold layers.
+* **Strict Quality Quarantine:** Engineered a declarative YAML-based quality engine that enforces schemas and seamlessly
+  routes invalid records into dedicated quarantine tables without silent data drops.
+* **Dual-Profile Orchestration:** Configured **Apache Airflow** topologies supporting both a lightweight SQLite executor
+  for testing and a production-grade PostgreSQL + LocalExecutor architecture for parameterized backfills.
+* **Governed Analytics & Observability:** Served Gold-layer data through a **FastAPI** + **DuckDB** API secured via
+  Role-Based Access Control (RBAC), fully monitored via **Prometheus** metrics and **Grafana** dashboards.
+
+### 📈 [InsightLedger](https://github.com/Bibek-Dhakal/InsightLedger)
+
+**End-to-end decision-support analytics stack: governed KPIs, reconciled data, and rigorous A/B testing.**
+
+* **Modern Data Stack:** Deployed a fully containerized pipeline using **PostgreSQL**, **dbt-postgres**, and
+  **Metabase** to ingest mock data, transform it into a dimensional model, and serve self-serve parameterized
+  dashboards.
+* **Governed KPI Transformations:** Implemented strict data-quality tests (uniqueness, non-null, referential) using
+  **dbt**, ensuring data totals precisely reconcile and bad data never contaminates downstream reporting.
+* **Rigorous Experiment Analysis:** Evaluated A/B testing data programmatically in Python using `scipy` and
+  `statsmodels`, enforcing Chi-Square tests to halt analysis on Sample Ratio Mismatch (SRM) anomalies.
+* **Statistical Significance:** Computed genuine business impacts (e.g., 28.7% relative conversion lift) backed by
+  2-proportion Z-tests, precise p-values, and 95% Confidence Intervals.
 
 ### 🏗️ [DataMart-Flex](https://github.com/Bibek-Dhakal/DataMart-Flex)
 
@@ -59,8 +86,6 @@ coming years.
   orders) using the Python `Faker` library to simulate an enterprise data ecosystem.
 * **Advanced BI Integration:** Built a comprehensive Power BI showcase dashboard utilizing explicit DAX and Time
   Intelligence measures (YTD, MoM Growth, Rolling Averages) for executive reporting.
-* **Enterprise CI/CD:** Maintained strict engineering standards with automated **Pytest** coverage, **Ruff** linting,
-  pre-commit hooks, and semantic versioning through **Release Please** via GitHub Actions.
 
 ### 🧪 [StatTest-Pro](https://github.com/Bibek-Dhakal/StatTest-Pro)
 
@@ -70,13 +95,8 @@ coming years.
   ensure well-powered experiments.
 * **Automated Safety Invariants:** Enforced automated Sample Ratio Mismatch (SRM) anomaly detection via Chi-Square
   Goodness-of-Fit, halting evaluations if $p < 0.01$.
-* **Analytical Evaluation:** Evaluated proportional metrics using Z-tests to compute exact p-values, relative lifts, and
-  95% Confidence Intervals.
-* **Executive Reporting:** Programmatically generated 1-page HTML/PDF summary reports featuring data visualizations
-  using `Matplotlib`, `Seaborn`, and `Jinja2` templating.
 * **Enterprise CI/CD & Packaging:** Packaged and published natively to [PyPI](https://pypi.org/project/stattest-pro/),
-  maintained with rigorous standards including `Pytest` coverage, `Ruff` linting, pre-commit hooks, and GitHub Actions
-  (Release Please).
+  maintained with rigorous standards including `Pytest` coverage and semantic versioning via GitHub Actions.
 
 ### ⚙️ [CohortLTV-Engine](https://github.com/Bibek-Dhakal/CohortLTVEngine)
 
@@ -86,23 +106,15 @@ coming years.
   in **~174ms**, massively exceeding the sub-5 second SLA constraint.
 * **Advanced SQL Transformations:** Engineered complex data pipelines utilizing Window Functions, CTEs, and aggregated
   joins to accurately compute month-over-month retention and rolling LTV metrics.
-* **Automated Python ETL:** Developed a fully automated pipeline scheduled via **GitHub Actions** that extracts raw
-  data, performs heavy transformations, logs execution metadata, and exports BI-ready CSVs.
-* **Enterprise CI/CD:** Maintained strict engineering standards with end-to-end **Pytest** coverage, **Ruff**
-  linting/formatting, pre-commit hooks, and semantic versioning through **Release Please**.
 
-### 📈 [ExecPulse-BI](https://github.com/Bibek-Dhakal/exec-pulse-BI)
+### 📉 [ExecPulse-BI](https://github.com/Bibek-Dhakal/exec-pulse-BI)
 
 **Interactive Sales & Operations BI Dashboard built on automated Star-Schema Data Modeling.**
 
-* **Automated ETL Pipeline:** Designed to tackle scattered data sources by pushing heavy row-level transformations into
-  programmatic Python/Pandas ETL steps, converting 50,000+ raw transactions into a strict dimensional Star Schema.
+* **Automated ETL Pipeline:** Pushed heavy row-level transformations into programmatic Python/Pandas ETL steps,
+  converting 50,000+ raw transactions into a strict dimensional Star Schema.
 * **Optimized Storage & BI Consumption:** Exported normalized dimensional tables into a local **SQLite** database via
   **SQLAlchemy** and generated flat CSVs for highly-performant, cross-platform BI ingestion.
-* **Dynamic KPI Calculations:** Developed a ready-to-use **Power BI** dashboard (`.pbix`) driven by dynamic DAX measures
-  (Total Revenue, Profit Margins, YoY Growth, Rolling 30-Day Sales).
-* **Enterprise CI/CD:** Maintained strict code quality via **Ruff**, **Pytest**, pre-commit hooks, and semantic
-  versioning through Google's Release Please.
 
 ### 📊 [Applied Search Intelligence: CTR Opportunity Scoring](https://bibek-dhakal.github.io/applied-search-intelligence/)
 
@@ -110,12 +122,8 @@ coming years.
 
 * Handled out-of-core data processing by querying and verifying a **~79 million row** production warehouse directly from
   Hugging Face using **DuckDB**.
-* Trained a Random Forest classifier on a curated **30,000-row** anonymized dataset to identify pages underperforming
-  their exact peer groups.
 * Identified and documented a critical data leakage trap: a naive data split yielded an inflated 94% precision due to
   client overlap, which I corrected to an honest 64% using a strict **client-grouped holdout split**.
-* Translated the model probabilities into a transparent, rule-backed "Action Playbook" to avoid black-box automated
-  decision-making.
 * Published the full methodology, leakage audit, and results as a
   deployed [Research Paper](https://bibek-dhakal.github.io/applied-search-intelligence/).
 
@@ -124,15 +132,9 @@ coming years.
 **SQL-driven exploratory analysis of e-commerce customer behavior, automated into an executive presentation.**
 
 * **Automated Data Storytelling:** Developed a Python CLI tool that runs the analytical pipeline end-to-end—from
-  building a database to programmatically generating a 5-slide executive deck (`.pptx` & `.pdf`) complete with
-  metric-backed insights and charts.
+  building a database to programmatically generating a 5-slide executive deck (`.pptx` & `.pdf`).
 * **SQL & DuckDB Analytics:** Engineered 9 complex SQL queries and views using **DuckDB** to analyze RFM segments,
   cohort retention, profit concentration, and monthly churn trends.
-* **Synthetic Data Generation:** Built a deterministic data generator using **NumPy** and **Pandas** to simulate
-  realistic e-commerce transactions, customer archetypes, and category margins.
-* **Strict Engineering Standards:** Maintained an enterprise-grade codebase governed by **GitHub Actions**, with robust
-  test coverage via **Pytest**, strict linting/formatting via **Ruff**, and semantic versioning through **Release
-  Please**.
 
 ### 🧹 [DataCleanse-Lite](https://github.com/Bibek-Dhakal/data-cleanse-lite)
 
@@ -141,11 +143,7 @@ coming years.
 * **High Throughput ETL:** Extracted, cleaned, validated, and loaded **100,000 messy records** in **~2.24 seconds**
   using in-memory `pandas` manipulation, outperforming the strict 30-second SLA by over 13x.
 * **Strict Validation & Quarantine:** Leveraged **Pydantic** to assert strict data contracts (null constraints, typing),
-  gracefully trapping and quarantining ~21% of corrupted records to flat files rather than failing silently.
-* **Data Standardization:** Reconciled disparate payload sources (CSV/JSON), stripped invalid text artifacts,
-  standardized dates, and imputed missing numeric logic prior to relational storage via **SQLAlchemy** into **SQLite**.
-* **Enterprise CI/CD Workflow:** Established comprehensive repository standards via **pre-commit hooks**, **Ruff** for
-  linting/formatting, **Pytest** for testing, and semantic versioning via **Release Please**.
+  gracefully trapping and quarantining ~21% of corrupted records.
 
 ### 🌊 [FlowTrace: DAG-Orchestrated ML Pipeline](https://github.com/Bibek-Dhakal/flowtrace)
 
@@ -155,25 +153,15 @@ coming years.
   pipeline stages.
 * **Strict Quality Gating:** Enforced declarative data boundaries with **Pandera**, natively halting execution before
   expensive training jobs if data is corrupt.
-* **Cryptographic Lineage:** Integrated **MLflow** to cryptographically link every model artifact to the exact input
-  data version (via SHA256 hash) and track hyperparameter metrics.
-* **Automated Promotion:** Implemented CI/CD logic to evaluate newly trained models against the active production model,
-  automatically assigning the `@champion` alias to the best performer.
 
 ### 🧪 [TabTrace: Reproducible ML Pipeline](https://github.com/Bibek-Dhakal/tabtrace)
 
 **Reproducible tabular ML pipeline enforcing justified feature engineering and cross-validated evaluation.**
 
-* Rejected "notebook-only" ML: designed the entire pipeline from data ingestion to feature engineering as pure,
-  unit-tested Python functions.
 * Enforced declarative feature justifications via a custom Python decorator registry, automatically halting the pipeline
   if rationale is missing.
-* Implemented deterministic, saved train/val/test splits with strict data leakage checks to guarantee honest model
-  evaluation.
 * Evaluated a Logistic Regression baseline against a grid-searched Random Forest using 5-fold stratified
   cross-validation.
-* Configured automated CI/CD gating using **GitHub Actions**, strictly enforcing **>90% test coverage with Pytest**,
-  Ruff formatting, and semantic versioning via Release Please.
 
 ### 🚀 [ModelGate: ML Inference API & Python SDK](https://github.com/Bibek-Dhakal/modelgate)
 
@@ -181,14 +169,8 @@ coming years.
 
 * **Dynamic Artifact Loading:** Instantly serves `.joblib` or `.pkl` models by fetching them directly via HTTP URLs on
   startup using Environment Variables.
-* **Native Python SDK:** Published on [PyPI](https://pypi.org/project/modelgate-py/) (`pip install modelgate-py`) to
-  integrate dynamic loading and strict validation directly into existing codebases.
-* **Strict Input Validation:** Uses dynamic `schema.json` boundaries to strictly validate incoming payloads, ensuring
-  malformed data never hits the execution layer.
-* **Error Shielding Architecture:** Overridden FastAPI exception handlers guarantee zero leaked Python stack traces,
-  returning only clean `422` and `500` JSON responses.
-* **Containerized & CI/CD Enforced:** Fully Docker-native, rigorously tested via **Pytest** (including interactive
-  Jupyter notebooks), and governed by **GitHub Actions** (Ruff Linting, Release Please Versioning).
+* **Native Python SDK:** Published on [PyPI](https://pypi.org/project/modelgate-py/) to integrate dynamic loading and
+  strict validation directly into existing codebases.
 
 ### ☸️ [ServeScale: Kubernetes ML Serving System](https://github.com/Bibek-Dhakal/servescale)
 
@@ -196,28 +178,17 @@ coming years.
 
 * **Inference Optimization:** Leveraged **ONNX Runtime** and **8-bit Dynamic Quantization** to significantly minimize
   the model's container memory footprint and CPU latency.
-* **Kubernetes Orchestration:** Configured deployment topology with liveness and readiness probes to safely handle
-  auto-scaling and pod lifecycle events.
 * **Zero-Downtime Rollouts:** Integrated **Locust** load testing to explicitly verify that exactly **0 requests are
   dropped** during live RollingUpdates under concurrent HTTP traffic.
-* **Standardized Engineering:** Built as a robust **FastAPI** application, containerized via Docker, and tested strictly
-  via Pytest within a modern Python ecosystem.
 
 ### 📉 [Customer Churn Risk Intelligence](https://github.com/bibek-dhakal/customer-churn-risk-intelligence)
 
 **Enterprise-grade MLOps pipeline and real-time API for customer churn prediction and risk segmentation.**
 
 * Engineered a production-ready machine learning pipeline featuring experiment tracking and model registry via
-  **MLflow**, alongside a real-time inference microservice built with **FastAPI** and containerized using **Docker**.
-* Implemented strict declarative data contracts using **Pandera** (training data) and **Pydantic** (API payloads) to
-  prevent silent data failures and ensure schema integrity.
+  **MLflow**, alongside a real-time inference microservice built with **FastAPI**.
 * Secured model persistence using **Skops** instead of legacy pickle files to eliminate arbitrary code execution
   vulnerabilities in production environments.
-* Evaluated multiple algorithm families using 5-fold Stratified Cross-Validation, ultimately selecting **Logistic
-  Regression (0.85 ROC-AUC)** over Random Forest/LightGBM for superior probability ranking sensitivity on imbalanced
-  datasets.
-* Established a modern CI/CD workflow utilizing **GitHub Actions**, **Pytest**, **Ruff** for linting, and **Google
-  Release Please** for automated changelog generation and semantic versioning.
 
 ### 🛡️ [Aegis Omnisearch Agent](https://github.com/bibek-dhakal/aegis-api)
 
@@ -226,93 +197,48 @@ coming years.
 * Implemented a custom **ReAct-style Reason + Act loop** using Google's Gemini API for tool selection and grounded
   responses.
 * Built local retrieval using **FAISS** and used **INT8 ONNX Runtime** for lightweight CPU inference.
-* Designed PDF processing around limited memory using page-by-page streaming and micro-batched indexing.
-* Configured the inference runtime to reduce memory overhead in constrained environments.
-* Implemented a GitHub Webhook-based update mechanism for updating indexed knowledge during deployment.
-
----
 
 ### 📦 [LexiByte](https://github.com/bibek-dhakal/lexibyte)
 
 **Byte-Pair Encoding tokenizer implemented from scratch and published as a Python package on PyPI.**
 
 * Implemented GPT-style regex pre-tokenization using Unicode-aware patterns for words, numbers, and punctuation.
-* Built a frequency dictionary during BPE training to reduce unnecessary merge checks.
-* Added memoization to avoid repeated tokenization work during inference.
-* Implemented UTF-8 byte-level fallbacks to avoid out-of-vocabulary failures.
-* Published the package to PyPI (`pip install lexibyte`): [Lexibyte](https://pypi.org/project/lexibyte/)
-
----
+* Published the package to PyPI (`pip install lexibyte`).
 
 ### ⚡ [Forge-LM](https://github.com/bibek-dhakal/forge-lm) & [NanoTransformer](https://github.com/bibek-dhakal/nanotransformer)
 
 **A project exploring Transformer implementation, training, optimization, and lightweight inference.**
 
-#### 🧠 [NanoTransformer](https://github.com/bibek-dhakal/nanotransformer)
-
-* Implemented a GPT-2-style Transformer decoder using PyTorch primitives.
-* Integrated the custom **LexiByte BPE tokenizer**.
-* Experimented with **FlashAttention** and **bfloat16 mixed precision** for training.
-* Built the architecture to understand Transformer components and training mechanics from the implementation level.
-
-#### 🚀 [Forge-LM](https://github.com/bibek-dhakal/forge-lm)
-
-* Scaled the architecture to approximately **28M parameters**.
-* Trained the model on the **TinyStories** dataset.
-* Used gradient accumulation to work within approximately **6 GB VRAM**.
-* Exported the model to **ONNX** and applied **INT8 dynamic quantization** for lightweight inference.
-* Built a **FastAPI + NumPy inference service**.
-* Containerized the application using Docker and tested it in low-memory deployment environments.
-
----
+* Scaled the architecture to approximately **28M parameters** and trained on TinyStories using gradient accumulation to
+  work within ~6 GB VRAM.
+* Exported the model to **ONNX** and applied **INT8 dynamic quantization** for lightweight inference via FastAPI.
 
 ### 🛡️ [Multimodal Phishing Detection Platform](https://github.com/bibek-dhakal/multimodal-phishing-detection-platform)
 
 **Phishing detection system combining structured URL features with linguistic signals.**
 
-* Combined structured URL features from **ISCX** with linguistic features from **PhiUSIIL**.
-* Implemented a **soft-voting fusion** approach across the models.
-* Used XGBoost with **Platt scaling through `CalibratedClassifierCV`** for probability calibration.
-* Exposed the model through **FastAPI**.
-* Built an interactive **Streamlit** interface for evaluation.
-* Used **Docker Compose** to run the application components.
-
----
+* Combined structured URL features from **ISCX** with linguistic features from **PhiUSIIL** using soft-voting fusion.
 
 ### 🌐 [ZeroProp Engine & Live WebSocket Dashboard](https://github.com/Bibek-Dhakal/zero-prop-api/)
 
 **Neural-network engine implemented without a deep-learning framework, with real-time training visualization.**
 
 * Implemented dense layers, ReLU activation, and Softmax Cross-Entropy using **NumPy matrix operations**.
-* Implemented the training pipeline to understand forward propagation, loss calculation, and backpropagation at a lower
-  level.
-* Added **FastAPI WebSockets** to stream training metrics.
-* Built a **React + HTML5 Canvas** interface to visualize epoch, loss, and accuracy in real time.
-
----
+* Added **FastAPI WebSockets** to stream training metrics to a live **React + HTML5 Canvas** dashboard.
 
 ### 📉 [OverfitLab](https://github.com/Bibek-Dhakal/overfitlab)
 
 **A deep learning experiment demonstrating the diagnosis and correction of overfitting.**
 
-* Simulated a classic failure mode (memorizing noise) on a highly non-linear synthetic dataset using a deep
-  **Multi-Layer Perceptron (MLP)** baseline.
 * Diagnosed train/validation loss divergence and restored generalization by applying **Dropout (p=0.5)** and **L2 Weight
   Decay** in **PyTorch**.
-* Built as a modular, reproducible Python package featuring deterministic data generation, agnostic training loops, and
-  **Matplotlib** visualizations.
-* Enforced robustness and code quality with **Pytest**, **Ruff**, **pre-commit hooks**, and **GitHub Actions** CI
-  pipelines.
-
----
 
 ### 🚀 [LunarLander-v2 Agent](https://huggingface.co/imbibek8366/ppo-LunarLander-v2)
 
 **Reinforcement-learning agent trained with PPO.**
 
-* Trained an autonomous agent to safely navigate a lunar module to its landing pad using the Proximal Policy
-  Optimization (PPO) algorithm.
-* Standard RL benchmark environment, done as an extensive learning exercise.
+* Trained an autonomous agent to safely navigate a lunar module to its landing pad using Proximal Policy Optimization
+  (PPO).
 
 ---
 
@@ -324,11 +250,9 @@ coming years.
 
 * Engineered a **CTR Opportunity Scoring** model acting as a decision-support system to prioritize SEO metadata reviews.
 * Used **DuckDB** to query and aggregate large-scale Parquet datasets (**~79M rows**) directly from Hugging Face,
-  avoiding RAM bottlenecks, while training the final ML models on a 30k-row analytical slice.
+  avoiding RAM bottlenecks.
 * Conducted rigorous model evaluation, successfully identifying and mitigating client-overlap data leakage via strict
   grouped validation splits.
-* Framed machine learning outputs as a human-in-the-loop action playbook, focusing on precision and real-world business
-  constraints.
 * Authored and deployed a comprehensive [Research Paper](https://bibek-dhakal.github.io/applied-search-intelligence/)
   detailing the validation methodology and error analysis.
 * Completed various **Anthropic Academy certifications** for AI fluency and Claude API proficiency.
@@ -339,12 +263,8 @@ coming years.
 
 * Completed a hands-on learning track covering machine-learning mathematics, vector computation, classical ML, and
   deep-learning concepts.
-* Implemented ML concepts through practical exercises and projects.
-* Built and served ML applications using **FastAPI**.
-* Used **Docker** to containerize applications.
-* Completed and defended the final project in **July 2026**.
+* Built and served ML applications using **FastAPI** and containerized them using **Docker**.
 * Completed **Kaggle certifications for Pandas, Feature Engineering, Intro to ML, and Intermediate ML**.
-* Completed **Skill Shikshya certifications for Data Science & ML Diploma**.
 
 ---
 
@@ -353,29 +273,20 @@ coming years.
 **Full-Stack Engineer Intern** — *Walkers Hive IT Professionals* | **Oct 2025 – Dec 2025** *(Mandatory Academic
 Internship)*
 
-* Independently designed and implemented the architecture for the **AcademiaOS MVP**.
-* Built backend services using **FastAPI and Celery**.
-* Developed the frontend using **Next.js**.
-* Implemented HTTP-only cookie authentication and **role-based access control (RBAC)**.
-* Used Docker as part of the application development and deployment setup.
+* Independently designed and implemented the architecture for the **AcademiaOS MVP** using **FastAPI, Celery, and
+  Next.js**.
 
 **Software Engineer** — *Nextwave Technology* | **Apr 2025 – Jul 2025** *(Contract)*
 
 * Worked on new features, bug fixes, UI revamp, and the Google Play Store launch of the **Academia** mobile application.
-* Maintained and fixed existing Flutter codebases.
-* Migrated corporate websites to **Next.js**-based implementations.
 
 **Software Engineer** — *Walkers Hive IT Professionals* | **Nov 2024 – Apr 2025** *(Contract)*
 
 * Built an e-commerce administration panel using **React, MUI, and Redux-Saga**.
-* Developed Next.js frontends integrated with existing PHP backends.
-* Worked across frontend development, application integration, and deployment.
 
 **Android Development Intern** — *CodSoft* | **Dec 2023 – Jan 2024** *(Internship)*
 
-* Developed Flutter applications with **Firebase Authentication**.
-* Implemented local persistence and **BLoC state management**.
-* Worked on application UI and BAAS integration.
+* Developed Flutter applications with **Firebase Authentication** and **BLoC state management**.
 
 ---
 
@@ -385,7 +296,6 @@ Internship)*
 
 **Nihareeka College of Management and Information Technology**
 *Tribhuvan University, Nepal • Completed Final Semester Coursework and Examination on August 2026*
-
 **Status:** **Fully available with no remaining academic obligations.**
 
 ---
@@ -406,20 +316,7 @@ Internship)*
 
 ### Kaggle Certificates: [Link](https://www.kaggle.com/bibekdhakal8366)
 
-* **Kaggle — Pandas**
-* **Kaggle — Feature Engineering**
-* **Kaggle — Intro to Machine Learning**
-* **Kaggle — Intermediate Machine Learning**
-
-### 🏆 Artifacts
-
-* **Deployed ML Research Paper: CTR Opportunity
-  Score** [Read Here](https://bibek-dhakal.github.io/applied-search-intelligence/)
-  A public research paper detailing my methodology on evaluating ML models honestly, mitigating data leakage, and
-  framing ML as a decision-support tool.
-* **LunarLander-v2 Agent** [Link](https://huggingface.co/imbibek8366/ppo-LunarLander-v2)
-  Trained an autonomous agent to safely navigate a lunar module to its landing pad using the Proximal Policy
-  Optimization (PPO) algorithm.
+* **Kaggle — Pandas, Feature Engineering, Intro to Machine Learning, Intermediate Machine Learning**
 
 ---
 
