@@ -12,7 +12,7 @@ FastAPI backends, and Docker-based deployment**. I like understanding how ML sys
 abstractions and turning those implementations into tested, usable software.
 
 **🎓 Education:** BCA, Tribhuvan University. Final-semester examinations completed August 2026 <br>
-**🔬 Recent:** AI/ML Research Internship at FlyRank AI, published capstone on data leakage and search intelligence <br>
+**🔬 Recent:** ML Internship at FlyRank AI, published capstone on data leakage and search intelligence <br>
 **📚 Currently:** Preparing for graduate studies in Computer Science / Data Science, and continuing to build open-source
 ML projects
 
