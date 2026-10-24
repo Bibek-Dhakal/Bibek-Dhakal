@@ -2,7 +2,7 @@
 
 ### ML & Data Science | BCA Graduate
 
-*Kathmandu, Nepal • [imbibek8366@gmail.com](mailto:imbibek8366@gmail.com)*
+*Biratnagar, Koshi Zone, Nepal • [imbibek8366@gmail.com](mailto:imbibek8366@gmail.com)*
 
 I build machine-learning systems from first principles through deployment, with a software engineering background and a
 habit of testing my own results honestly (baselines, leakage-safe validation, error analysis).
